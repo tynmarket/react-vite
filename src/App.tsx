@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from "react-router-dom";
 import logo from './logo.svg'
 import './App.css'
 
@@ -9,6 +10,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1 className="text-3xl font-bold underline">
+          Hello Tailwind!
+        </h1>
         <p>Hello Vite + React!</p>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
@@ -37,7 +41,10 @@ function App() {
             Vite Docs
           </a>
         </p>
+        <button class="btn btn-primary no-animation">Button</button>
+        <Link to="/expenses">Expenses</Link>
       </header>
+      <p>あああ</p>
     </div>
   )
 }
