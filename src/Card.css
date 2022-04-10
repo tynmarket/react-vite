@@ -1,3 +1,9 @@
+header {
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e0e0e7;
+}
+
 .card-title {
   font-weight: bold;
   text-align: center;
