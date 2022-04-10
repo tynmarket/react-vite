@@ -15,6 +15,20 @@ export default function Card() {
             <img src={ clock } />
             活動時間
           </h3>
+          <dl class="flex activity-time items-center">
+            <dt class="activity-time__day">平日</dt>
+            <dd class="flex activity-time__time">
+              <span class="activity-time__start">21:00</span>
+              <span class="activity-time__end">24:00</span>
+            </dd>
+          </dl>
+          <dl class="flex activity-time items-center">
+            <dt class="activity-time__day">週末</dt>
+            <dd class="flex activity-time__time">
+              <span class="activity-time__start">14:00</span>
+              <span class="activity-time__end">17:00</span>
+            </dd>
+          </dl>
         </div>
       </div>
     </div>
