@@ -91,6 +91,12 @@ header {
     margin-right: 15px;
     margin-left: 15.5px;
   }
+  &__tank &__icon,
+  &__healer &__icon {
+    width: 19px;
+    height: 19px;
+    margin: 0.5px;
+  }
 }
 
 .tag {
