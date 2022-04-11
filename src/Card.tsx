@@ -1,34 +1,97 @@
 import logo from './card-img.png'
 import clock from './clock.svg'
+import people from './people.svg'
+import goal from './goal.svg'
+import tank from './tank.svg'
+import healer from './healer.svg'
+import dps from './dps.svg'
+import tag from './tag.svg'
+import description from './description.svg'
 import './Card.css'
 
 export default function Card() {
   return (
     <div class="card w-96 bg-base-100 shadow-xl" style={{ width: "270px", margin: "auto" }}>
-      <figure><img src={ logo } alt="Shoes" /></figure>
+      <figure><img src={ logo } class="icon" /></figure>
       <div class="card-body" style={{ height: "424px", padding: "18px 14px 28px 16px" }}>
         <header>
           <h2 class="card-title">【Gaia】絶竜詩 vc無し 活動日週5以上固定メンバー2名募集@ST or メレー、レンジ</h2>
         </header>
         <div class="card-content">
-          <h3 class="flex activity-time__header">
-            <img src={ clock } />
+          <h3 class="flex item-title activity-time__header">
+            <img src={ clock } class="icon" />
             活動時間
           </h3>
           <dl class="flex activity-time items-center">
             <dt class="activity-time__day">平日</dt>
-            <dd class="flex activity-time__time">
-              <span class="activity-time__start">21:00</span>
-              <span class="activity-time__end">24:00</span>
+            <dd class="flex dot-line activity-time__time">
+              <span class="number-text bg-white text-around activity-time__start">21:00</span>
+              <span class="number-text bg-white activity-time__end">24:00</span>
             </dd>
           </dl>
           <dl class="flex activity-time items-center">
             <dt class="activity-time__day">週末</dt>
-            <dd class="flex activity-time__time">
-              <span class="activity-time__start">14:00</span>
-              <span class="activity-time__end">17:00</span>
+            <dd class="flex dot-line activity-time__time">
+              <span class="number-text bg-white text-around activity-time__start">14:00</span>
+              <span class="number-text bg-white activity-time__end">17:00</span>
             </dd>
           </dl>
+          <p class="flex justify-between dot-line">
+            <span class="flex items-center bg-white item-title">
+              <img src={ people } class="icon" />
+              募集人数
+            </span>
+            <span class="bg-white number-text text-around">2</span>
+          </p>
+          <p class="flex justify-between dot-line goal">
+            <span class="flex items-center bg-white item-title">
+              <img src={ goal } class="icon" />
+              クリア目標
+            </span>
+            <span class="bg-white number-text text-around">2〜3ヶ月</span>
+          </p>
+        </div>
+        <div class="description">
+          <p class="flex justify-between">
+            <span class="flex items-center bg-white item-title role__title">
+              <img src={ description } class="icon" />
+              募集ロール
+            </span>
+          </p>
+          <p class="flex justify-around role">
+            <span class="role__tank"><img src={ tank } class="role__icon" /></span>
+            <span class="role__tank"><img src={ tank } class="role__icon" /></span>
+            {/* <span class="role__tank role__either-one"><img src={ tank } class="role__icon" /></span> */}
+            <span class="role__healer"><img src={ healer } class="role__icon" /></span>
+            <span class="role__healer"><img src={ healer } class="role__icon" /></span>
+            {/* <span class="role__healer role__either-one"><img src={ healer } class="role__icon" /></span> */}
+            <span class="role__dps"><img src={ dps } class="role__icon rotate-90" /></span>
+            <span class="role__dps"><img src={ dps } class="role__icon rotate-90" /></span>
+            <span class="role__dps"><img src={ dps } class="role__icon rotate-90" /></span>
+            <span class="role__dps"><img src={ dps } class="role__icon rotate-90" /></span>
+          </p>
+          <div class="flex tag">
+            <div class="tag__container">
+              <span class="flex items-center tag__item">
+                <img src={ tag } class="tag-icon" />
+                <span>VC有り</span>
+              </span>
+              <span class="flex items-center tag__item">
+                <img src={ tag } class="tag-icon" />
+                <span>聞き専可</span>
+              </span>
+              <span class="flex items-center tag__item">
+                <img src={ tag } class="tag-icon" />
+                <span>調整枠有り</span>
+              </span>
+            </div>
+            <div class="tag__container">
+              <span class="flex items-center tag__item">
+                <img src={ tag } class="tag-icon" />
+                <span>配信可</span>
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
