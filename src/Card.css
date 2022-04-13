@@ -1,3 +1,64 @@
+.card {
+  width: 280px;
+  //margin: 0 16px;
+  margin: auto;
+  overflow: initial;
+}
+
+.card-inner {
+  position: relative;
+  padding-top: 136px;
+}
+
+.card-image {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 280px;
+  height: 364px;
+  overflow: hidden;
+  background-color: #e24524;
+  border-radius: 8px;
+
+  img {
+    width: 280px;
+    height: 157px;
+  }
+}
+
+.card-body {
+  position: relative;
+  margin-left: 10px;
+  padding: 18px 14px 28px 16px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 8px;
+  background-color: #fff;
+}
+
+.party {
+  color:  #e24524;
+
+  .icon {
+    width: 28px;
+    height: 28px;
+    margin-right: 0;
+  }
+}
+
+.new {
+  position: absolute;
+  top: -6px;
+  right: -21px;
+  width: 62px;
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  background-color: #e24524;
+  z-index: 2;
+  color:  #fff;
+  font-size: 14px;
+}
+
 header {
   margin-bottom: 14px;
   padding-bottom: 14px;
@@ -11,7 +72,6 @@ header {
   font-size: 1.5rem;
   line-height: inherit;
   overflow: hidden;
-  height: 54px;
 }
 
 .card-content {
@@ -112,6 +172,23 @@ header {
   }
 }
 
+.world {
+  position: absolute;
+  right: 14px;
+  bottom: 10px;
+
+  &__icon-wrapper {
+    margin-right: 4px;
+    border: 3.5px solid #e24524;
+    background-color: #e24524;
+  }
+  .icon {
+    margin-right: 0;
+    width: 11px;
+    height: 11px;
+  }
+}
+
 .item-title {
   padding-right: 8px;
   font-size: 13px;
@@ -127,6 +204,12 @@ header {
   margin-right: 4px;
   width: 19.5px;
   height: 19.5px;
+
+  &-small {
+    margin-right: 2px;
+    width: 12.5px;
+    height: 12.5px;
+  }
 }
 
 .tag-icon {
