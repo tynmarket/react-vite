@@ -3,6 +3,11 @@
   //margin: 0 16px;
   margin: auto;
   overflow: initial;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-20px);
+  }
 }
 
 .card-inner {
@@ -29,10 +34,19 @@
 .card-body {
   position: relative;
   margin-left: 10px;
-  padding: 18px 14px 28px 16px;
+  padding: 16px 14px 28px 16px;
+  border-radius: 8px;
   border-top-right-radius: 0;
-  border-top-left-radius: 8px;
   background-color: #fff;
+}
+
+.card-footer {
+  padding-top: 5px;
+  font-size: 10px;
+
+  span {
+    letter-spacing: 0.6px;
+  }
 }
 
 .party {
@@ -66,9 +80,8 @@ header {
 }
 
 .card-title {
-  align-items: initial;
+  padding-bottom: 2px;
   font-weight: bold;
-  text-align: center;
   font-size: 1.5rem;
   line-height: inherit;
   overflow: hidden;
@@ -134,7 +147,7 @@ header {
     width: 20px;
     height: 20px;
   }
-  &__tank, &__healer, &__dps {
+  &__tank, &__healer, &__dps, &__done {
     padding: 1px;
     border-radius: 4px;
   }

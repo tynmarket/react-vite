@@ -7,6 +7,7 @@ import goal from './goal.svg'
 import tank from './tank.svg'
 import healer from './healer.svg'
 import dps from './dps.svg'
+import done from './done.svg'
 import tag from './tag.svg'
 import description from './description.svg'
 import world from './world.svg'
@@ -14,7 +15,7 @@ import './Card.css'
 
 export default function Card() {
   return (
-    <div class="card w-96 bg-base-100 shadow-xl">
+    <div class="card">
       <div>
         <span class="flex items-center font-bold party">
           <img src={ party } class="icon" />
@@ -26,9 +27,9 @@ export default function Card() {
       </div>
       <div class="card-inner">
         <div class="card-image"><img src={ logo } /></div>
-        <div class="card-body">
+        <div class="card-body shadow-xl">
           <header>
-            <h2 class="card-title">活動日週5以上固定メンバー</h2>
+            <h2 class="card-title justify-center">Tyn Market</h2>
             <p class="flex justify-center items-center">
               <img src={ content } class="icon-small" />
               絶竜詩戦争 [Gaia]
@@ -76,14 +77,14 @@ export default function Card() {
               </span>
             </p>
             <p class="flex justify-around role">
-              <span class="role__tank"><img src={ tank } class="role__icon" /></span>
+              <span class="role__done"><img src={ done } class="role__icon" /></span>
               <span class="role__tank"><img src={ tank } class="role__icon" /></span>
               {/* <span class="role__tank role__either-one"><img src={ tank } class="role__icon" /></span> */}
               <span class="role__healer"><img src={ healer } class="role__icon" /></span>
               <span class="role__healer"><img src={ healer } class="role__icon" /></span>
               {/* <span class="role__healer role__either-one"><img src={ healer } class="role__icon" /></span> */}
               <span class="role__dps"><img src={ dps } class="role__icon rotate-90" /></span>
-              <span class="role__dps"><img src={ dps } class="role__icon rotate-90" /></span>
+              <span class="role__done"><img src={ done } class="role__icon" /></span>
               <span class="role__dps"><img src={ dps } class="role__icon rotate-90" /></span>
               <span class="role__dps"><img src={ dps } class="role__icon rotate-90" /></span>
             </p>
@@ -118,6 +119,9 @@ export default function Card() {
               JA
             </span>
           </div>
+        </div>
+        <div class="card-footer text-right">
+          <span class="font-bold">募集期間: 2022/05/13 まで</span>
         </div>
       </div>
     </div>
