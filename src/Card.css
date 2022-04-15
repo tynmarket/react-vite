@@ -38,6 +38,7 @@
   border-radius: 8px;
   border-top-right-radius: 0;
   background-color: #fff;
+  height: 424px;
 }
 
 .card-footer {
@@ -74,7 +75,7 @@
 }
 
 header {
-  margin-bottom: 14px;
+  margin-bottom: 8px;
   padding-bottom: 14px;
   border-bottom: 1px solid #e0e0e7;
 }
@@ -90,10 +91,23 @@ header {
 .card-content {
   padding-bottom: 10px;
   border-bottom: 1px solid #e0e0e7;
+
+  .item-title {
+    line-height: 27px;
+
+    &.activity-time__header {
+      line-height: 21px;
+    }
+    .icon {
+      margin-right: 4px;
+      width: 21px;
+      height: 21px;
+    }
+  }
 }
 
 .activity-time__header {
-  margin-bottom: 8px;
+  margin-bottom: 6.5px;
 }
 
 .activity-time {
@@ -128,6 +142,11 @@ header {
   .text-around {
     padding-right: 6px;
   }
+}
+
+.goal, .recruit {
+  height: 25.5px;
+  line-height: 25.5px;
 }
 
 .description {

@@ -54,7 +54,7 @@ export default function Card() {
                 <span class="number-text bg-white activity-time__end">17:00</span>
               </dd>
             </dl>
-            <p class="flex justify-between dot-line">
+            <p class="flex justify-between dot-line recruit">
               <span class="flex items-center bg-white item-title">
                 <img src={ people } class="icon" />
                 募集人数
