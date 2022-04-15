@@ -1,3 +1,4 @@
+
 .card {
   width: 280px;
   /* margin: 0 16px; */
@@ -73,7 +74,7 @@
 header {
   margin-bottom: 8px;
   padding-bottom: 14px;
-  border-bottom: 1px solid #e0e0e7;
+  border-bottom: 1px solid var(--border-color-gray);
 }
 
 .card-title {
@@ -86,7 +87,7 @@ header {
 
 .card-content {
   padding-bottom: 10px;
-  border-bottom: 1px solid #e0e0e7;
+  border-bottom: 1px solid var(--border-color-gray);
 
   .item-title {
     line-height: 27px;
@@ -112,7 +113,7 @@ header {
 
   &__day {
     margin-right: 6px;
-    border: 1px solid #e0e0e7;
+    border: 1px solid var(--border-color-gray);
     border-radius: 3px;
     width: 80px;
     text-align: center;

@@ -5,6 +5,7 @@ module.exports = {
       {
         finder: {
           primary: "#e24524",
+          "--border-color-gray": "#e0e0e7",
         },
       },
     ],
