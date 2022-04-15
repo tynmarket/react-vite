@@ -17,16 +17,16 @@ export default function Card() {
   return (
     <div class="card">
       <div>
-        <span class="flex items-center font-bold party">
+        <span class="flex items-center font-bold party text-primary">
           <img src={ party } class="icon" />
           固定パーティー
         </span>
-        <span class="rounded-full font-bold new">
+        <span class="new rounded-full font-bold bg-primary">
           NEW
         </span>
       </div>
       <div class="card-inner">
-        <div class="card-image"><img src={ logo } /></div>
+        <div class="card-image bg-primary"><img src={ logo } /></div>
         <div class="card-body shadow-xl">
           <header>
             <h2 class="card-title justify-center">Tyn Market</h2>
@@ -113,7 +113,7 @@ export default function Card() {
           </div>
           <div>
             <span class="flex font-bold world">
-              <span class="rounded-full world__icon-wrapper">
+              <span class="rounded-full world__icon-wrapper bg-primary">
                 <img src={ world } class="icon" />
               </span>
               JA
