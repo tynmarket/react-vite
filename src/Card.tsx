@@ -27,7 +27,7 @@ export default function Card() {
       </div>
       <div class="card-inner">
         <div class="card-image bg-primary"><img src={ logo } /></div>
-        <div class="card-body shadow-xl">
+        <div class="card-body">
           <header>
             <h2 class="card-title justify-center">Tyn Market</h2>
             <p class="flex justify-center items-center">
