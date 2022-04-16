@@ -16,7 +16,7 @@ import './Card.css'
 export default function Card() {
   return (
     <div class="card">
-      <div>
+      <div class="card-upper">
         <span class="party flex items-center text-primary font-bold">
           <img src={ party } class="icon" />
           固定パーティー
@@ -88,28 +88,28 @@ export default function Card() {
               <span class="role__dps"><img src={ dps } class="role__icon rotate-90" /></span>
               <span class="role__dps"><img src={ dps } class="role__icon rotate-90" /></span>
             </p>
-            <div class="flex tag">
+            <div class="tag flex">
               <div class="tag__container">
-                <span class="flex items-center tag__item">
-                  <img src={ tag } class="tag-icon" />
+                <span class="tag__item flex items-center">
+                  <img src={ tag } class="tag__icon" />
                   <span>VCあり</span>
                 </span>
-                <span class="flex items-center tag__item">
-                  <img src={ tag } class="tag-icon" />
+                <span class="tag__item flex items-center">
+                  <img src={ tag } class="tag__icon" />
                   <span>聞き専可</span>
                 </span>
-                <span class="flex items-center tag__item">
-                  <img src={ tag } class="tag-icon" />
+                <span class="tag__item flex items-center">
+                  <img src={ tag } class="tag__icon" />
                   <span>調整枠あり</span>
                 </span>
               </div>
               <div class="tag__container">
-                <span class="flex items-center tag__item">
-                  <img src={ tag } class="tag-icon" />
+                <span class="tag__item flex items-center">
+                  <img src={ tag } class="tag__icon" />
                   <span>配信可</span>
                 </span>
-                <span class="flex items-center tag__item">
-                  <img src={ tag } class="tag-icon" />
+                <span class="tag__item flex items-center">
+                  <img src={ tag } class="tag__icon" />
                   <span>昼練習あり</span>
                 </span>
               </div>
