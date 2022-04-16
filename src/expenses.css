@@ -1,0 +1,10 @@
+.link {
+  width: 280px;
+  margin: auto;
+  display: block;
+  text-decoration-line: none;
+
+  * {
+    cursor: pointer;
+  }
+}

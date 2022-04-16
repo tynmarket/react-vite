@@ -4,7 +4,6 @@
 .card {
   width: 280px;
   /* margin: 0 16px; */
-  margin: auto;
   overflow: initial;
   transition: all .2s ease-in-out;
 
@@ -262,7 +261,13 @@
 /**
  * parts
  */
+.link {
+
+}
+
 .icon {
+  width: 19.5px;
+  height: 19.5px;
   margin-right: 4px;
 }
 
@@ -303,9 +308,4 @@
 .bg-white {
   background: #fff;
   z-index: 2;
-}
-
-.icon {
-  width: 19.5px;
-  height: 19.5px;
 }
