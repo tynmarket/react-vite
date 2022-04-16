@@ -242,7 +242,7 @@
 
     &__icon-wrapper {
       margin-right: 4px;
-      border: 3.5px solid #e24524;
+      border: 3.5px solid var(--color-primary);
     }
     .icon {
       margin-right: 0;

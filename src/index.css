@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
 html {
   font-size: 75%;
 }
