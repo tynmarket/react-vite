@@ -2,9 +2,10 @@
  * main structure
  */
 .layout {
-  font-family: "メイリオ", Meiryo, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", Arial, Verdana, sans-serif;
-  letter-spacing: normal;
-
+  .brand, .header, .global-nav {
+    font-family: "メイリオ", Meiryo, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", Arial, Verdana, sans-serif;
+    letter-spacing: normal;
+  }
   .brand {
     height: 38px;
     background-color: #1b1b1b;
@@ -16,6 +17,10 @@
   .global-nav {
     height: 48px;
     background-color: #000;
+  }
+  .cf-nav {
+    height: 60px;
+    box-shadow: 0px 14px 24px 0px rgb(42 42 49 / 10%);
   }
 }
 
@@ -90,6 +95,51 @@
     &.active {
       background-color: #2c2c2c;
     }
+  }
+}
+
+/**
+ * cf-nav
+ */
+.cf-nav {
+  .cf-logo {
+    width: 328px;
+    padding-right: 10px;
+    padding-left: 12px;
+    line-height: 58px;
+    font-size: 23px;
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    letter-spacing: -2.5px;
+
+    .icon {
+      width: 56px
+    }
+  }
+  .cf-dc, .cf-world {
+    width: 187px;
+    padding-right: 16px;
+    padding-left: 46px;
+    border-left: 1px solid var(--border-color-gray);
+    border-right: 1px solid var(--border-color-gray);
+    line-height: 15px;
+  }
+  .cf-item {
+    height: 32px;
+
+    &__title {
+      font-size: 10px;
+    }
+    &__text {
+      height: 18px;
+      line-height: 18px;
+    }
+  }
+  .cf-dc {
+    width: 187px;
+  }
+  .cf-world {
+    width: 206px;
+    border-left: none;
   }
 }
 }

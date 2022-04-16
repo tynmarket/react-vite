@@ -1,5 +1,6 @@
 import face from './face.svg'
 import home from './home.svg'
+import star from './star.svg'
 import './Layout.css'
 
 export default function Layout() {
@@ -37,6 +38,38 @@ export default function Layout() {
           <div class="nav-item"></div>
           <div class="nav-item"></div>
         </nav>
+      </div>
+      <div class="cf-nav flex justify-between">
+        <div class="flex">
+          <div class="cf-logo flex font-bold">
+            コミュニティ
+            <img src={ star } class="icon" />
+            ファインダー
+          </div>
+          <div class="cf-dc flex items-center">
+            <span class="cf-item flex flex-col">
+              <span class="cf-item__title">
+                DATA CENTER
+              </span>
+              <span class="cf-item__text font-bold">
+                Gaia
+              </span>
+            </span>
+          </div>
+          <div class="cf-world flex items-center border-l-none">
+            <span class="cf-item flex flex-col">
+              <span class="cf-item__title">
+                WORLD
+              </span>
+              <span class="cf-item__text font-bold">
+                Ultima
+              </span>
+            </span>
+          </div>
+        </div>
+        <div>
+
+        </div>
       </div>
     </div>
   );
