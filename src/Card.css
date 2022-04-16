@@ -54,25 +54,25 @@
  * card-body
  */
 .card-body {
-  .card-header {
+  .summary {
     margin-bottom: 8px;
     padding-bottom: 14px;
     border-bottom: 1px solid var(--border-color-gray);
   }
-  .card-activity {
+  .activity {
     padding-bottom: 10px;
     border-bottom: 1px solid var(--border-color-gray);
   }
-  .card-description {
+  .description {
     margin-top: 8px;
   }
 }
 
 /**
- * card-header
+ * summary
  */
-.card-header {
-  .card-title {
+.summary {
+  .user-name {
     padding-bottom: 2px;
     line-height: inherit;
     overflow: hidden;
@@ -80,9 +80,9 @@
 }
 
 /**
- * card-activity
+ * activity
  */
-.card-activity {
+.activity {
   .icon {
     width: 21px;
     height: 21px;
