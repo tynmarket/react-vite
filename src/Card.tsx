@@ -115,7 +115,7 @@ export default function Card() {
               </div>
             </div>
           </div>
-          <div>
+          <div class="extra">
             <span class="flex font-bold world">
               <span class="rounded-full world__icon-wrapper bg-primary">
                 <img src={ world } class="icon" />

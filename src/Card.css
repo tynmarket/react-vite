@@ -1,5 +1,5 @@
 /**
- * structure
+ * main structure
  */
 .card {
   width: 280px;
@@ -95,6 +95,7 @@
   .description {
     margin-top: 8px;
   }
+  .extra {}
 }
 
 /**
@@ -231,6 +232,27 @@
 }
 
 /**
+ * extra
+ */
+.extra {
+  .world {
+    position: absolute;
+    right: 14px;
+    bottom: 10px;
+
+    &__icon-wrapper {
+      margin-right: 4px;
+      border: 3.5px solid #e24524;
+    }
+    .icon {
+      margin-right: 0;
+      width: 11px;
+      height: 11px;
+    }
+  }
+}
+
+/**
  * parts
  */
 .icon {
@@ -275,22 +297,6 @@
 .bg-white {
   background: #fff;
   z-index: 2;
-}
-
-.world {
-  position: absolute;
-  right: 14px;
-  bottom: 10px;
-
-  &__icon-wrapper {
-    margin-right: 4px;
-    border: 3.5px solid #e24524;
-  }
-  .icon {
-    margin-right: 0;
-    width: 11px;
-    height: 11px;
-  }
 }
 
 .icon {
