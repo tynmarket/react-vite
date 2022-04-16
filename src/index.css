@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.w-global {
+  width: var(--width-global);
+}
+
 .bg-primary {
   background-color: var(--color-primary);
 }

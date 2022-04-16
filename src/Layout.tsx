@@ -4,10 +4,10 @@ import './Layout.css'
 
 export default function Layout() {
   return (
-    <>
+    <div class="layout">
       <div class="brand w-full"></div>
       <header class="header flex items-center w-full">
-        <div class="header__inner flex justify-end mx-auto">
+        <div class="flex justify-end w-global mx-auto">
           <div class="my-character flex justify-between items-center relative">
             <span class="bg-white rounded-full">
               <img src={ face } class="icon" />
@@ -25,6 +25,19 @@ export default function Layout() {
           </div>
         </div>
       </header>
-    </>
+      <div class="global-nav w-full">
+        <nav class="nav-bar flex w-global mx-auto">
+          <div class="nav-item"></div>
+          <div class="nav-item"></div>
+          <div class="nav-item"></div>
+          { /* TODO: リンク */ }
+          <div class="nav-item active font-bold">
+            コミュニティ
+          </div>
+          <div class="nav-item"></div>
+          <div class="nav-item"></div>
+        </nav>
+      </div>
+    </div>
   );
 }
