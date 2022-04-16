@@ -47,6 +47,7 @@ export default function Layout() {
             <img src={ star } class="icon" />
             ファインダー
           </div>
+          { /* ページごとの表示非表示 */ }
           <div class="cf-dc flex items-center">
             <span class="cf-item flex flex-col">
               <span class="cf-item__title">

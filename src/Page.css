@@ -1,0 +1,50 @@
+/**
+ * main structure
+ */
+.pages {
+  .nav-bar {
+    height: 81px;
+    padding-right: 22px;
+    color: #fff;
+  }
+}
+
+.pages {
+/**
+ * nav-bar
+ */
+.nav-bar {
+  .icon-party {
+    width: 90px;
+    height: 90px;
+    margin: 0 28px;
+  }
+  .title {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .period {
+    height: 22px;
+
+    .icon-calendar {
+      width: 18px;
+      height: 18px;
+      margin-top: 1.25px;
+      margin-right: 6px;
+    }
+  }
+  .party-nav {
+    .nav-item {
+      height: 22px;
+      margin: 0 6px;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      line-height: 13px;
+      font-size: 13px;
+
+      &.active {
+        border-bottom-color: #fff;
+      }
+    }
+  }
+}
+}

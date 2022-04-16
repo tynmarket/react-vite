@@ -16,6 +16,11 @@
   color: var(--color-primary);
 }
 
+.font-s {
+  font-size: 10px;
+  line-height: 10px;
+}
+
 html {
   font-size: 75%;
 }
