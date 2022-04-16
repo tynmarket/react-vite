@@ -8,6 +8,10 @@
   background-color: var(--color-primary);
 }
 
+.text-primary {
+  color: var(--color-primary);
+}
+
 html {
   font-size: 75%;
 }
