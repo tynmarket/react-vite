@@ -116,6 +116,13 @@
     line-height: inherit;
     overflow: hidden;
   }
+  .content {
+    .icon {
+      margin-right: 2px;
+      width: 12.5px;
+      height: 12.5px;
+    }
+  }
 }
 
 /**
@@ -302,10 +309,4 @@
 .icon {
   width: 19.5px;
   height: 19.5px;
-
-  &-small {
-    margin-right: 2px;
-    width: 12.5px;
-    height: 12.5px;
-  }
 }

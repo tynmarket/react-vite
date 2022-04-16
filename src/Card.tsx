@@ -30,8 +30,8 @@ export default function Card() {
         <div class="card-body">
           <header class="summary">
             <h2 class="user-name card-title justify-center text-l">Tyn Market</h2>
-            <p class="flex justify-center items-center">
-              <img src={ content } class="icon-small" />
+            <p class="content flex justify-center items-center">
+              <img src={ content } class="icon" />
               絶竜詩戦争 [Gaia]
             </p>
           </header>
