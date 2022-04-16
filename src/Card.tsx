@@ -29,7 +29,7 @@ export default function Card() {
         <div class="card-image bg-primary"><img src={ logo } /></div>
         <div class="card-body">
           <header class="card-header">
-            <h2 class="card-title justify-center">Tyn Market</h2>
+            <h2 class="card-title justify-center text-l">Tyn Market</h2>
             <p class="flex justify-center items-center">
               <img src={ content } class="icon-small" />
               絶竜詩戦争 [Gaia]
@@ -43,15 +43,15 @@ export default function Card() {
             <dl class="flex activity-time items-center">
               <dt class="activity-time__day">平日</dt>
               <dd class="flex dot-line activity-time__time">
-                <span class="number-text bg-white text-around activity-time__start">21:00</span>
-                <span class="number-text bg-white activity-time__end">24:00</span>
+                <span class="activity-time__start text-l bg-white text-around">21:00</span>
+                <span class="activity-time__end text-l bg-white">24:00</span>
               </dd>
             </dl>
             <dl class="flex activity-time items-center">
               <dt class="activity-time__day">週末</dt>
               <dd class="flex dot-line activity-time__time">
-                <span class="number-text bg-white text-around activity-time__start">14:00</span>
-                <span class="number-text bg-white activity-time__end">17:00</span>
+                <span class="activity-time__start text-l bg-white text-around">14:00</span>
+                <span class="activity-time__end text-l bg-white">17:00</span>
               </dd>
             </dl>
             <p class="flex justify-between dot-line goal">
@@ -59,14 +59,14 @@ export default function Card() {
                 <img src={ goal } class="icon" />
                 クリア目標
               </span>
-              <span class="bg-white number-text text-around">2〜3ヶ月</span>
+              <span class="bg-white text-l text-around">2〜3ヶ月</span>
             </p>
             <p class="flex justify-between dot-line recruit">
               <span class="flex items-center bg-white item-title">
                 <img src={ people } class="icon" />
                 募集人数
               </span>
-              <span class="bg-white number-text text-around">2</span>
+              <span class="bg-white text-l text-around">2</span>
             </p>
           </div>
           <div class="card-description">

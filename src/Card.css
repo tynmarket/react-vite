@@ -81,6 +81,25 @@
   }
 }
 
+/**
+ * card-header
+ */
+.card-header {
+  .card-title {
+    padding-bottom: 2px;
+    line-height: inherit;
+    overflow: hidden;
+  }
+}
+
+/**
+ * utility
+ */
+.text-l {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .party {
   .icon {
     width: 28px;
@@ -101,14 +120,6 @@
   color:  #fff;
   font-size: 14px;
   box-shadow: 3px 6px 7px 0px rgb(0 163 90 / 20%);
-}
-
-.card-title {
-  padding-bottom: 2px;
-  font-weight: bold;
-  font-size: 1.5rem;
-  line-height: inherit;
-  overflow: hidden;
 }
 
 .activity-time__header {
@@ -224,11 +235,6 @@
 .item-title {
   padding-right: 8px;
   font-size: 13px;
-  font-weight: bold;
-}
-
-.number-text {
-  font-size: 1.5rem;
   font-weight: bold;
 }
 
