@@ -28,14 +28,14 @@ export default function Card() {
       <div class="card-inner">
         <div class="card-image bg-primary"><img src={ logo } /></div>
         <div class="card-body">
-          <header>
+          <header class="card-header">
             <h2 class="card-title justify-center">Tyn Market</h2>
             <p class="flex justify-center items-center">
               <img src={ content } class="icon-small" />
               絶竜詩戦争 [Gaia]
             </p>
           </header>
-          <div class="card-content">
+          <div class="card-activity">
             <h3 class="flex item-title activity-time__header">
               <img src={ clock } class="icon" />
               活動時間
@@ -69,7 +69,7 @@ export default function Card() {
               <span class="bg-white number-text text-around">2</span>
             </p>
           </div>
-          <div class="description">
+          <div class="card-description">
             <p class="flex justify-between">
               <span class="flex items-center bg-white item-title role__title">
                 <img src={ description } class="icon" />

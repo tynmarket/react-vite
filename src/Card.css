@@ -1,7 +1,6 @@
 /**
  * structure
  */
-
 .card {
   width: 280px;
   /* margin: 0 16px; */
@@ -12,46 +11,73 @@
   &:hover {
     transform: translateY(-20px);
   }
-}
-
-.card-inner {
-  position: relative;
-  padding-top: 136px;
-}
-
-.card-image {
-  position: absolute;
-  top: 2px;
-  left: 0;
-  width: 280px;
-  height: 364px;
-  overflow: hidden;
-  border-radius: 8px;
-
-  img {
+  .card-inner {
+    position: relative;
+    padding-top: 136px;
+  }
+  .card-image {
+    position: absolute;
+    top: 2px;
+    left: 0;
     width: 280px;
-    height: 157px;
+    height: 364px;
+    overflow: hidden;
+    border-radius: 8px;
+
+    img {
+      width: 280px;
+      height: 157px;
+    }
+  }
+  .card-body {
+    position: relative;
+    margin-left: 10px;
+    padding: 16px 14px 28px 16px;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    height: 424px;
+    box-shadow: 7px 12px 24px 0px rgb(6 0 1 / 15%);
+  }
+  .card-footer {
+    padding-top: 5px;
+    font-size: 10px;
+    line-height: 18px;
+
+    span {
+      letter-spacing: 0.6px;
+    }
   }
 }
 
+/**
+ * card-body
+ */
 .card-body {
-  position: relative;
-  margin-left: 10px;
-  padding: 16px 14px 28px 16px;
-  border-radius: 8px;
-  border-top-right-radius: 0;
-  background-color: #fff;
-  height: 424px;
-  box-shadow: 7px 12px 24px 0px rgb(6 0 1 / 15%);
-}
+  .card-header {
+    margin-bottom: 8px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border-color-gray);
+  }
+  .card-activity {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-color-gray);
 
-.card-footer {
-  padding-top: 5px;
-  font-size: 10px;
-  line-height: 18px;
+    .item-title {
+      line-height: 27px;
 
-  span {
-    letter-spacing: 0.6px;
+      &.activity-time__header {
+        line-height: 21px;
+      }
+      .icon {
+        margin-right: 4px;
+        width: 21px;
+        height: 21px;
+      }
+    }
+  }
+  .card-description {
+    margin-top: 8px;
   }
 }
 
@@ -77,36 +103,12 @@
   box-shadow: 3px 6px 7px 0px rgb(0 163 90 / 20%);
 }
 
-header {
-  margin-bottom: 8px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid var(--border-color-gray);
-}
-
 .card-title {
   padding-bottom: 2px;
   font-weight: bold;
   font-size: 1.5rem;
   line-height: inherit;
   overflow: hidden;
-}
-
-.card-content {
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--border-color-gray);
-
-  .item-title {
-    line-height: 27px;
-
-    &.activity-time__header {
-      line-height: 21px;
-    }
-    .icon {
-      margin-right: 4px;
-      width: 21px;
-      height: 21px;
-    }
-  }
 }
 
 .activity-time__header {
@@ -150,10 +152,6 @@ header {
 .goal, .recruit {
   height: 25.5px;
   line-height: 25.5px;
-}
-
-.description {
-  margin-top: 8px;
 }
 
 .role {
