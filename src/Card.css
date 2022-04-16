@@ -87,18 +87,17 @@
     width: 21px;
     height: 21px;
   }
-  .activity-time__title {
-    margin-bottom: 6.5px;
-
-    &.item-title {
-      line-height: 21px;
-    }
-  }
-
   .activity-time {
     margin-bottom: 2px;
     margin-left: 4px;
 
+    &__title {
+      margin-bottom: 6.5px;
+
+      &.item-title {
+        line-height: 21px;
+      }
+    }
     &__day {
       margin-right: 6px;
       border: 1px solid var(--border-color-gray);
@@ -124,6 +123,50 @@
   .activity-goal {
     .text-around {
       padding-right: 6px;
+    }
+  }
+}
+
+/**
+ * description
+ */
+.description {
+  .role {
+    margin-top: 14px;
+    margin-bottom: 14px;
+
+    &__title {
+      .icon {
+        margin-right: 4.25px;
+        margin-left: 1.5px;
+      }
+    }
+    &__icon {
+      width: 20px;
+      height: 20px;
+    }
+    &__tank, &__healer, &__dps, &__done {
+      padding: 1px;
+      border-radius: 4px;
+    }
+    &__tank {
+      background-color: #1919e6;
+    }
+    &__healer {
+      background-color: #228b22;
+    }
+    &__dps {
+      background-color: #c61b25;
+    }
+    &__either-one {
+      margin-right: 15px;
+      margin-left: 15.5px;
+    }
+    &__tank &__icon,
+    &__healer &__icon {
+      width: 19px;
+      height: 19px;
+      margin: 0.5px;
     }
   }
 }
@@ -195,44 +238,6 @@
   color:  #fff;
   font-size: 14px;
   box-shadow: 3px 6px 7px 0px rgb(0 163 90 / 20%);
-}
-
-.role {
-  margin-top: 14px;
-  margin-bottom: 14px;
-
-  &__title {
-    .icon {
-      margin-left: 1px;
-    }
-  }
-  &__icon {
-    width: 20px;
-    height: 20px;
-  }
-  &__tank, &__healer, &__dps, &__done {
-    padding: 1px;
-    border-radius: 4px;
-  }
-  &__tank {
-    background-color: #1919e6;
-  }
-  &__healer {
-    background-color: #228b22;
-  }
-  &__dps {
-    background-color: #c61b25;
-  }
-  &__either-one {
-    margin-right: 15px;
-    margin-left: 15.5px;
-  }
-  &__tank &__icon,
-  &__healer &__icon {
-    width: 19px;
-    height: 19px;
-    margin: 0.5px;
-  }
 }
 
 .tag {

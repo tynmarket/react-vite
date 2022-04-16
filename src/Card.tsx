@@ -71,12 +71,12 @@ export default function Card() {
           </div>
           <div class="description">
             <p class="flex justify-between">
-              <span class="flex items-center bg-white item-title role__title">
+              <span class="role__title flex items-center bg-white item-title">
                 <img src={ description } class="icon" />
                 募集ロール
               </span>
             </p>
-            <p class="flex justify-around role">
+            <p class="role flex justify-around">
               <span class="role__done"><img src={ done } class="role__icon" /></span>
               <span class="role__tank"><img src={ tank } class="role__icon" /></span>
               {/* <span class="role__tank role__either-one"><img src={ tank } class="role__icon" /></span> */}
