@@ -3,10 +3,13 @@ import { Outlet, Link } from "react-router-dom";
 import logo from './logo.svg'
 import './App.css'
 
+import Layout from './Layout'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -42,10 +45,17 @@ function App() {
           </a>
         </p>
         <button class="btn btn-primary no-animation">Button</button>
+        <Layout />
         <Link to="/expenses">Expenses</Link>
       </header>
       <Outlet />
     </div>
+    */
+    <>
+      <Layout/>
+      <Link to="/expenses">Expenses</Link>
+      <Outlet />
+    </>
   )
 }
 
