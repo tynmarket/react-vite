@@ -1,15 +1,7 @@
-import { Link } from "react-router-dom";
+import './Page.css'
 
-import Card from "./Card";
-import './expenses.css'
-
-export default function Expenses() {
+export default function Page() {
   return (
-    <main style={{ padding: "1rem 0" }}>
-      <h2>Expenses</h2>
-      <Link to="/page" class="link">
-        <Card />
-      </Link>
-    </main>
+    <div>Page</div>
   );
 }
