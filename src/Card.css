@@ -42,6 +42,7 @@
   }
 }
 
+.card {
 /**
  * card-upper
  */
@@ -308,4 +309,5 @@
 .bg-white {
   background: #fff;
   z-index: 2;
+}
 }
