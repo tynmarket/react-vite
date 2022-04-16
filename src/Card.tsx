@@ -17,11 +17,11 @@ export default function Card() {
   return (
     <div class="card">
       <div>
-        <span class="flex items-center font-bold party text-primary">
+        <span class="party flex items-center text-primary font-bold">
           <img src={ party } class="icon" />
           固定パーティー
         </span>
-        <span class="new rounded-full font-bold bg-primary">
+        <span class="new bg-primary rounded-full font-bold">
           NEW
         </span>
       </div>
@@ -40,17 +40,17 @@ export default function Card() {
               <img src={ clock } class="icon" />
               活動時間
             </h3>
-            <dl class="flex activity-time items-center">
-              <dt class="activity-time__day">平日</dt>
-              <dd class="flex dot-line activity-time__time">
-                <span class="activity-time__start text-l bg-white text-around">21:00</span>
+            <dl class="activity-time flex items-center">
+              <dt class="activity-time__day font-bold">平日</dt>
+              <dd class="activity-time__time flex dot-line">
+                <span class="activity-time__start text-around text-l">21:00</span>
                 <span class="activity-time__end text-l bg-white">24:00</span>
               </dd>
             </dl>
-            <dl class="flex activity-time items-center">
-              <dt class="activity-time__day">週末</dt>
-              <dd class="flex dot-line activity-time__time">
-                <span class="activity-time__start text-l bg-white text-around">14:00</span>
+            <dl class="activity-time flex items-center">
+              <dt class="activity-time__day font-bold">週末</dt>
+              <dd class="activity-time__time flex dot-line">
+                <span class="activity-time__start text-around text-l">14:00</span>
                 <span class="activity-time__end text-l bg-white">17:00</span>
               </dd>
             </dl>
@@ -59,14 +59,14 @@ export default function Card() {
                 <img src={ goal } class="icon" />
                 クリア目標
               </span>
-              <span class="bg-white text-l text-around">2〜3ヶ月</span>
+              <span class="text-around text-l">2〜3ヶ月</span>
             </p>
             <p class="flex justify-between dot-line recruit">
               <span class="flex items-center bg-white item-title">
                 <img src={ people } class="icon" />
                 募集人数
               </span>
-              <span class="bg-white text-l text-around">2</span>
+              <span class="text-around text-l">2</span>
             </p>
           </div>
           <div class="card-description">
@@ -92,7 +92,7 @@ export default function Card() {
               <div class="tag__container">
                 <span class="flex items-center tag__item">
                   <img src={ tag } class="tag-icon" />
-                  <span>VC有り</span>
+                  <span>VCあり</span>
                 </span>
                 <span class="flex items-center tag__item">
                   <img src={ tag } class="tag-icon" />
@@ -100,13 +100,17 @@ export default function Card() {
                 </span>
                 <span class="flex items-center tag__item">
                   <img src={ tag } class="tag-icon" />
-                  <span>調整枠有り</span>
+                  <span>調整枠あり</span>
                 </span>
               </div>
               <div class="tag__container">
                 <span class="flex items-center tag__item">
                   <img src={ tag } class="tag-icon" />
                   <span>配信可</span>
+                </span>
+                <span class="flex items-center tag__item">
+                  <img src={ tag } class="tag-icon" />
+                  <span>昼練習あり</span>
                 </span>
               </div>
             </div>

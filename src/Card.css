@@ -93,11 +93,65 @@
 }
 
 /**
+ * card-activity
+ */
+.card-activity {
+  .activity-time {
+    margin-bottom: 2px;
+    margin-left: 4px;
+
+    &__day {
+      margin-right: 6px;
+      border: 1px solid var(--border-color-gray);
+      border-radius: 3px;
+      width: 80px;
+      text-align: center;
+    }
+    &__time {
+      width: 144px;
+    }
+    &__start {
+      padding: 0 8px;
+    }
+    &__end {
+      margin-left: auto;
+      padding-left: 8px;
+    }
+  }
+}
+
+/**
  * utility
  */
 .text-l {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.dot-line {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    border-top: 1px dotted #4d4d54;
+    content: "";
+  }
+
+  .text-around {
+    padding: 0 8px;
+    background: #fff;
+    z-index: 2;
+  }
+}
+
+.bg-white {
+  background: #fff;
+  z-index: 2;
 }
 
 .party {
@@ -124,34 +178,6 @@
 
 .activity-time__header {
   margin-bottom: 6.5px;
-}
-
-.activity-time {
-  margin-bottom: 2px;
-  margin-left: 4px;
-
-  &__day {
-    margin-right: 6px;
-    border: 1px solid var(--border-color-gray);
-    border-radius: 3px;
-    width: 80px;
-    text-align: center;
-    font-weight: bold;
-  }
-  &__time {
-    width: 144px;
-  }
-  &__start {
-    padding: 0 8px;
-  }
-  &__end {
-    margin-left: auto;
-    padding-left: 8px;
-  }
-}
-
-.text-around {
-  padding: 0 8px;
 }
 
 .goal {
@@ -257,24 +283,4 @@
   border: 2px solid #313138;
   border-radius: 50%;
   background: #313138;
-}
-
-.dot-line {
-  position: relative;
-
-  &::after {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 1px;
-    border-top: 1px dotted #4d4d54;
-    content: "";
-  }
-}
-
-.bg-white {
-  z-index: 2;
-  background: #fff;
 }
