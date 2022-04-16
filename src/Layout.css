@@ -20,7 +20,6 @@
   &__inner {
     width: 960px;
   }
-
   .my-character {
     width: 320px;
     height: 60px;
@@ -44,6 +43,28 @@
       &__free-company {
         line-height: 1.2;
         color: #ccc;
+      }
+    }
+    .home-world {
+      position: absolute;
+      top: 6px;
+      right: 7px;
+      height: 18px;
+      margin-top: 0.5px;
+      padding-right: 13px;
+      font-size: 10px;
+      color: #6be52e;
+
+      .icon-wrapper {
+        width: 10.5px;
+        height:  10.5px;
+        background-color: #6be52e;
+        margin-right: 2.5px;
+      }
+
+      .icon {
+        width: 12px;
+        height:  12px;
       }
     }
   }
