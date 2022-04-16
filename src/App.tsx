@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import logo from './logo.svg'
 import './App.css'
 
@@ -44,7 +44,7 @@ function App() {
         <button class="btn btn-primary no-animation">Button</button>
         <Link to="/expenses">Expenses</Link>
       </header>
-      <p>あああ</p>
+      <Outlet />
     </div>
   )
 }
