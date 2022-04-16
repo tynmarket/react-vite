@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import './index.css'
 
 import App from './App'
-import Expenses from "./expenses";
+import Pages from "./Pages";
 import Page from "./Page";
 
 ReactDOM.render(
@@ -12,7 +12,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} >
-          <Route path="expenses" element={<Expenses />} />
+          <Route path="/" element={<Pages />} />
           <Route path="page" element={<Page />} />
         </Route>
       </Routes>

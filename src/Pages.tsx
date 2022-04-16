@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import Card from "./Card";
-import './expenses.css'
+import './Pages.css'
 
 export default function Expenses() {
   return (
