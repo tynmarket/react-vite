@@ -1,0 +1,50 @@
+/**
+ * main structure
+ */
+.brand {
+  height: 38px;
+  background-color: #1b1b1b;
+}
+
+.header {
+  height: 80px;
+  background-color: #d6d4cf;
+  font-family: "メイリオ", Meiryo, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", Arial, Verdana, sans-serif;
+  letter-spacing: normal;
+}
+
+/**
+ * header
+ */
+.header {
+  &__inner {
+    width: 960px;
+  }
+
+  .my-character {
+    width: 320px;
+    height: 60px;
+    padding: 5px 7px;
+    border-radius: 6px;
+    background-color: #333;
+
+    .icon {
+      width: 45px;
+      height: 45px;
+    }
+    .profile {
+      width: 248px;
+      padding-left: 2px;
+
+      &__name {
+        font-size: 14px;
+        line-height: 1.2;
+        color: #bfa34c;
+      }
+      &__free-company {
+        line-height: 1.2;
+        color: #ccc;
+      }
+    }
+  }
+}
