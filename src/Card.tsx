@@ -36,7 +36,7 @@ export default function Card() {
             </p>
           </header>
           <div class="card-activity">
-            <h3 class="flex item-title activity-time__header">
+            <h3 class="activity-time__title flex item-title">
               <img src={ clock } class="icon" />
               活動時間
             </h3>
@@ -54,14 +54,14 @@ export default function Card() {
                 <span class="activity-time__end text-l bg-white">17:00</span>
               </dd>
             </dl>
-            <p class="flex justify-between dot-line goal">
+            <p class="activity-goal flex justify-between dot-line">
               <span class="flex items-center bg-white item-title">
                 <img src={ goal } class="icon" />
                 クリア目標
               </span>
               <span class="text-around text-l">2〜3ヶ月</span>
             </p>
-            <p class="flex justify-between dot-line recruit">
+            <p class="activity-recruit flex justify-between dot-line">
               <span class="flex items-center bg-white item-title">
                 <img src={ people } class="icon" />
                 募集人数

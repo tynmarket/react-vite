@@ -62,19 +62,6 @@
   .card-activity {
     padding-bottom: 10px;
     border-bottom: 1px solid var(--border-color-gray);
-
-    .item-title {
-      line-height: 27px;
-
-      &.activity-time__header {
-        line-height: 21px;
-      }
-      .icon {
-        margin-right: 4px;
-        width: 21px;
-        height: 21px;
-      }
-    }
   }
   .card-description {
     margin-top: 8px;
@@ -96,6 +83,18 @@
  * card-activity
  */
 .card-activity {
+  .icon {
+    width: 21px;
+    height: 21px;
+  }
+  .activity-time__title {
+    margin-bottom: 6.5px;
+
+    &.item-title {
+      line-height: 21px;
+    }
+  }
+
   .activity-time {
     margin-bottom: 2px;
     margin-left: 4px;
@@ -118,13 +117,27 @@
       padding-left: 8px;
     }
   }
+  .activity-goal, .activity-recruit {
+    height: 25.5px;
+    line-height: 25.5px;
+  }
+  .activity-goal {
+    .text-around {
+      padding-right: 6px;
+    }
+  }
 }
 
 /**
- * utility
+ * parts
  */
-.text-l {
-  font-size: 1.5rem;
+.icon {
+  margin-right: 4px;
+}
+
+.item-title {
+  padding-right: 8px;
+  font-size: 13px;
   font-weight: bold;
 }
 
@@ -147,6 +160,14 @@
     background: #fff;
     z-index: 2;
   }
+}
+
+/**
+ * utility
+ */
+.text-l {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .bg-white {
@@ -174,21 +195,6 @@
   color:  #fff;
   font-size: 14px;
   box-shadow: 3px 6px 7px 0px rgb(0 163 90 / 20%);
-}
-
-.activity-time__header {
-  margin-bottom: 6.5px;
-}
-
-.goal {
-  .text-around {
-    padding-right: 6px;
-  }
-}
-
-.goal, .recruit {
-  height: 25.5px;
-  line-height: 25.5px;
 }
 
 .role {
@@ -258,14 +264,7 @@
   }
 }
 
-.item-title {
-  padding-right: 8px;
-  font-size: 13px;
-  font-weight: bold;
-}
-
 .icon {
-  margin-right: 4px;
   width: 19.5px;
   height: 19.5px;
 
