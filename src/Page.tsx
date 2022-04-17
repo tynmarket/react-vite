@@ -2,6 +2,7 @@ import party from './party.svg'
 import party_w from './party-white.svg'
 import calendar from './calendar.svg'
 import star from './star.svg'
+import person from './person-radio.svg'
 import './Page.css'
 
 export default function Page() {
@@ -29,7 +30,7 @@ export default function Page() {
         </div>
       </div>
       <div class="detail flex flex-col w-page mx-auto">
-        <div class="header flex justify-between w-page-content">
+        <div class="header flex justify-between w-page-content border-b">
           <span class="watch invisible"></span>
           <span class="title flex items-center">
             <img src={ party } class="icon" />
@@ -43,8 +44,17 @@ export default function Page() {
             </span>
           </span>
         </div>
-        <div class="activity w-page-content">
-
+        <div class="activity flex justify-between items-center w-page-content">
+          <span class="time"></span>
+          <span class="member flex items-center">
+            <span class="flex icon-wrapper rounded-full bg-primary">
+              <img src={ person } class="icon" />
+            </span>
+            <span class="member__inner flex flex-col">
+              <span class="text-s">アクティブメンバー数</span>
+              <span class="text font-bold">999</span>
+            </span>
+          </span>
         </div>
         <div class="role w-page-content">
 

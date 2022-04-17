@@ -28,6 +28,10 @@
   line-height: 10px;
 }
 
+.border-b {
+  border-bottom: 1px solid var(--border-color-gray);
+}
+
 html {
   font-size: 75%;
 }
