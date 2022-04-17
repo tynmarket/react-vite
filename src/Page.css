@@ -67,9 +67,10 @@
     color: #9a9aa1;
   }
   .header {
-    padding-bottom: 22px;
+    padding-bottom: 24px;
 
     .title {
+      margin-top: -4px;
       font-size: 32px;
 
       .icon {
