@@ -6,7 +6,7 @@ module.exports = {
         finder: {
           "--width-global": "960px",
           "--width-page": "1072px",
-          "--width-page-content": "854px",
+          "--width-page-content": "864px",
           // primary: "#e24524"と.bg-primaryの場合#e24524にならない
           "--color-primary": "#e24524",
           "--border-color-gray": "#e0e0e7",

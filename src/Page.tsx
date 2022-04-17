@@ -2,6 +2,7 @@ import party from './party.svg'
 import party_w from './party-white.svg'
 import calendar from './calendar.svg'
 import star from './star.svg'
+import clock from './clock-red.svg'
 import person from './person-radio.svg'
 import './Page.css'
 
@@ -44,10 +45,43 @@ export default function Page() {
             </span>
           </span>
         </div>
-        <div class="activity flex justify-between items-center w-page-content">
-          <span class="time"></span>
+        <div class="activity flex justify-between items-center w-page-content border-b">
+          <div class="time flex items-center">
+            <img src={ clock } class="icon" />
+            <div class="time__inner flex flex-col justify-evenly">
+              <div class="text-s">活動時間</div>
+              <div class="flex justify-between text font-bold">
+                <div class="flex">
+                  <span class="time__day">
+                    平日
+                  </span>
+                  <span class="time__between flex justify-between relative">
+                    <span class="time__start">
+                      21:00
+                    </span>
+                    <span class="time__end">
+                      24:00
+                    </span>
+                  </span>
+                </div>
+                <div class="flex">
+                  <span class="time__day">
+                    週末
+                  </span>
+                  <span class="time__between flex justify-between relative">
+                    <span class="time__start">
+                      14:00
+                    </span>
+                    <span class="time__end">
+                      17:00
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
           <span class="member flex items-center">
-            <span class="flex icon-wrapper rounded-full bg-primary">
+            <span class="icon-wrapper flex rounded-full bg-primary">
               <img src={ person } class="icon" />
             </span>
             <span class="member__inner flex flex-col">
