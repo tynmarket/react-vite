@@ -1,6 +1,6 @@
 import face from './face.svg'
 import home from './home.svg'
-import star from './star.svg'
+import star from './star-stack.svg'
 import add from './add.svg'
 import './Layout.css'
 

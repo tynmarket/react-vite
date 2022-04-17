@@ -8,6 +8,13 @@
   width: var(--width-global);
 }
 
+.w-page {
+  width: var(--width-page);
+}
+.w-page-content {
+  width: var(--width-page-content);
+}
+
 .bg-primary {
   background-color: var(--color-primary);
 }

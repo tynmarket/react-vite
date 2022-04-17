@@ -1,5 +1,6 @@
-import party from './party-white.svg'
+import party from './party.svg'
 import calendar from './calendar.svg'
+import star from './star.svg'
 import './Page.css'
 
 export default function Page() {
@@ -26,8 +27,30 @@ export default function Page() {
           <span class="nav-item">コメント</span>
         </div>
       </div>
-      <div class="">
+      <div class="detail flex flex-col w-page mx-auto">
+        <div class="header flex justify-between w-page-content">
+          <span class="watch invisible"></span>
+          <span class="title flex">
+            <img src={ party } class="icon" />
+            <span class="font-bold">募集情報</span>
+            <span class="adjuster"></span>
+          </span>
+          <span class="watch flex justify-center">
+            <span class="flex justify-center items-center text-white font-bold">
+              <img src={ star } class="icon" />
+              ウォッチリストに登録
+            </span>
+          </span>
+        </div>
+        <div class="activity w-page-content">
 
+        </div>
+        <div class="role w-page-content">
+
+        </div>
+        <div>
+
+        </div>
       </div>
     </div>
   );
