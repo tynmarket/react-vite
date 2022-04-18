@@ -3,7 +3,7 @@ import party_w from './party-white.svg'
 import calendar from './calendar.svg'
 import star from './star.svg'
 import clock from './clock-red.svg'
-import person from './person-radio.svg'
+import person from './person.svg'
 import './Page.css'
 
 export default function Page() {
@@ -81,7 +81,7 @@ export default function Page() {
             </div>
           </div>
           <span class="member flex items-center">
-            <span class="icon-wrapper flex rounded-full bg-primary">
+            <span class="icon-wrapper flex justify-center items-center rounded-full bg-primary">
               <img src={ person } class="icon" />
             </span>
             <span class="member__inner flex flex-col">
