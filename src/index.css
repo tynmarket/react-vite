@@ -4,6 +4,25 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: 75%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.3px;
+  line-height: 1.5;
+  color: #313138;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 .w-global {
   width: var(--width-global);
 }
@@ -69,23 +88,4 @@
 .bg-white-z {
   background: #fff;
   z-index: 2;
-}
-
-html {
-  font-size: 75%;
-}
-
-body {
-  margin: 0;
-  font-family: 'Noto Sans JP', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  letter-spacing: 0.3px;
-  line-height: 1.5;
-  color: #313138;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
