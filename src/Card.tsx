@@ -40,38 +40,38 @@ export default function Card() {
               <img src={ clock } class="icon" />
               活動時間
             </h3>
-            <dl class="activity-time flex items-center">
-              <dt class="activity-time__day font-bold">平日</dt>
-              <dd class="activity-time__time flex dot-line">
-                <span class="activity-time__start text-around text-l">21:00</span>
-                <span class="activity-time__end text-l bg-white">24:00</span>
-              </dd>
-            </dl>
-            <dl class="activity-time flex items-center">
-              <dt class="activity-time__day font-bold">週末</dt>
-              <dd class="activity-time__time flex dot-line">
-                <span class="activity-time__start text-around text-l">14:00</span>
-                <span class="activity-time__end text-l bg-white">17:00</span>
-              </dd>
-            </dl>
-            <p class="activity-goal flex justify-between dot-line">
-              <span class="flex items-center bg-white item-title">
+            <span class="activity-time row flex justify-between items-center pl-4">
+              <span class="border-box font-bold">平日</span>
+              <span class="activity-time__time flex justify-between dot-line">
+                <span class="pr-8 text-l bg-white-z">21:00</span>
+                <span class="pl-8 text-l bg-white-z">24:00</span>
+              </span>
+            </span>
+            <span class="activity-time row flex justify-between items-center pl-4">
+              <span class="border-box font-bold">週末</span>
+              <span class="activity-time__time flex justify-between dot-line">
+                <span class="pr-8 text-l bg-white-z">14:00</span>
+                <span class="pl-8 text-l bg-white-z">17:00</span>
+              </span>
+            </span>
+            <p class="activity-goal row flex justify-between dot-line">
+              <span class="flex items-center bg-white-z item-title">
                 <img src={ goal } class="icon" />
                 クリア目標
               </span>
-              <span class="text-around text-l">2〜3ヶ月</span>
+              <span class="pl-8 text-l bg-white-z">2〜3ヶ月</span>
             </p>
-            <p class="activity-recruit flex justify-between dot-line">
-              <span class="flex items-center bg-white item-title">
+            <p class="activity-recruit row flex justify-between dot-line">
+              <span class="flex items-center bg-white-z item-title">
                 <img src={ people } class="icon" />
                 募集人数
               </span>
-              <span class="text-around text-l">2</span>
+              <span class="pl-8 text-l bg-white-z">2</span>
             </p>
           </div>
           <div class="description">
             <p class="flex justify-between">
-              <span class="role__title flex items-center bg-white item-title">
+              <span class="role__title flex items-center bg-white-z item-title">
                 <img src={ description } class="icon" />
                 募集ロール
               </span>
