@@ -52,27 +52,27 @@ export default function Page() {
               <div class="text-s">活動時間</div>
               <div class="flex justify-between text font-bold">
                 <div class="flex">
-                  <span class="time__day">
+                  <span class="border-box">
                     平日
                   </span>
-                  <span class="time__between flex justify-between relative">
-                    <span class="time__start">
+                  <span class="time__between flex justify-between dot-line">
+                    <span class="pr-8 bg-white-z">
                       21:00
                     </span>
-                    <span class="time__end">
+                    <span class="pl-8 bg-white-z">
                       24:00
                     </span>
                   </span>
                 </div>
                 <div class="flex">
-                  <span class="time__day">
+                  <span class="border-box">
                     週末
                   </span>
-                  <span class="time__between flex justify-between relative">
-                    <span class="time__start">
+                  <span class="time__between flex justify-between dot-line">
+                    <span class="pr-8 bg-white-z">
                       14:00
                     </span>
-                    <span class="time__end">
+                    <span class="pl-8 bg-white-z">
                       17:00
                     </span>
                   </span>
