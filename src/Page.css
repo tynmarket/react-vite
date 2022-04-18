@@ -102,29 +102,31 @@
     height: 85px;
     font-size: 22px;
 
-    .time {
+    .times {
       width: 593px;
       height: 44px;
 
-      .border-box {
-        width: 88px;
-        margin-right: 14px;
-        font-size: 12px;
-        line-height: 20px;
-      }
-
-      &__inner {
+      .times-inner {
         width: 534px;
         height: 44px;
-      }
-      &__between {
-        width: 150px;
       }
       .icon {
         width: 53px;
         height: 53px;
         margin-right: 10px;
         margin-left: -4.5px;
+      }
+      .col {
+        width: 252px;
+      }
+      .time {
+        width: 150px;
+
+      }
+      .border-box {
+        width: 88px;
+        font-size: 12px;
+        line-height: 20px;
       }
     }
 

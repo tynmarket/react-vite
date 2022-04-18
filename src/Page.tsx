@@ -46,16 +46,16 @@ export default function Page() {
           </span>
         </div>
         <div class="activity flex justify-between items-center w-page-content border-b">
-          <div class="time flex items-center">
+          <div class="times flex items-center">
             <img src={ clock } class="icon" />
-            <div class="time__inner flex flex-col justify-evenly">
+            <div class="times-inner flex flex-col justify-evenly">
               <div class="text-s">活動時間</div>
               <div class="flex justify-between text font-bold">
-                <div class="flex">
+                <div class="col flex justify-between">
                   <span class="border-box">
                     平日
                   </span>
-                  <span class="time__between flex justify-between dot-line">
+                  <span class="time flex justify-between dot-line">
                     <span class="pr-8 bg-white-z">
                       21:00
                     </span>
@@ -64,11 +64,11 @@ export default function Page() {
                     </span>
                   </span>
                 </div>
-                <div class="flex">
+                <div class="col flex justify-between">
                   <span class="border-box">
                     週末
                   </span>
-                  <span class="time__between flex justify-between dot-line">
+                  <span class="time flex justify-between dot-line">
                     <span class="pr-8 bg-white-z">
                       14:00
                     </span>
