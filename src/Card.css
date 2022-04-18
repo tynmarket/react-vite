@@ -136,24 +136,18 @@
     width: 21px;
     height: 21px;
   }
-  .activity-time {
-    margin-bottom: 2px;
-
-    .border-box {
-      margin-right: 14px;
-      width: 80px;
-    }
-
-    &__title {
-      margin-bottom: 6.5px;
-
-      &.item-title {
-        line-height: 21px;
-      }
-    }
-    &__time {
-      width: 136px;
-    }
+  .item-title {
+    line-height: 21px;
+  }
+  .time-title {
+    margin-bottom: 6.5px;
+  }
+  .border-box {
+    margin-right: 14px;
+    width: 80px;
+  }
+  .time {
+    width: 136px;
   }
   .activity-goal, .activity-recruit {
     height: 25.5px;
