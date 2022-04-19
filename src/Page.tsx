@@ -4,12 +4,13 @@ import calendar from './calendar.svg'
 import star from './star.svg'
 import clock from './clock-red.svg'
 import person from './person.svg'
+import people from './people.svg'
 import './Page.css'
 
 export default function Page() {
   return (
     <div class="pages">
-      { /* Sticky */ }
+      { /* TODO: Sticky */ }
       <div class="nav-bar flex justify-between w-full bg-primary">
         <div class="flex items-center">
           <img src={ party_w } class="icon-party" />
@@ -80,18 +81,32 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <span class="member flex items-center">
+          <div class="member flex items-center">
             <span class="icon-wrapper flex justify-center items-center rounded-full bg-primary">
               <img src={ person } class="icon" />
             </span>
-            <span class="member__inner flex flex-col">
+            <span class="flex flex-col">
               <span class="text-s">アクティブメンバー数</span>
               <span class="text font-bold">999</span>
             </span>
-          </span>
+          </div>
         </div>
-        <div class="role w-page-content">
+        <div class="requirement w-page-content">
+          <div class="dc">
 
+          </div>
+          <div class="role">
+
+          </div>
+          <div class="recruit flex items-center">
+            <span class="icon-wrapper flex justify-center items-center rounded-full bg-primary">
+              <img src={ people } class="icon" />
+            </span>
+            <span class="flex flex-col">
+              <span class="text-s">募集人数</span>
+              <span class="text font-bold">6</span>
+            </span>
+          </div>
         </div>
         <div>
 

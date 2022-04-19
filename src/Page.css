@@ -129,19 +129,13 @@
         line-height: 20px;
       }
     }
-
     .member {
       width: 175px;
       height: 44px;
       margin-right: 30px;
 
-      .member__inner {
-        height: 44px;
-        margin-top: 6px;
-
-        .text {
-          margin-top: 3px;
-        }
+      .text {
+        margin-top: 3px;
       }
       .icon-wrapper {
         width: 44px;
@@ -153,6 +147,9 @@
         height: 36px;
       }
     }
+  }
+  .requirement {
+
   }
 }
 }
