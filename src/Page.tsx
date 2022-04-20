@@ -4,6 +4,7 @@ import calendar from './calendar.svg'
 import star from './star.svg'
 import clock from './clock-red.svg'
 import person from './person.svg'
+import description from './description-white.svg'
 import people from './people.svg'
 import './Page.css'
 
@@ -87,16 +88,27 @@ export default function Page() {
             </span>
             <span class="flex flex-col">
               <span class="text-s">アクティブメンバー数</span>
-              <span class="text font-bold">999</span>
+              <span class="mt-3 font-bold">999</span>
             </span>
           </div>
         </div>
-        <div class="requirement w-page-content">
-          <div class="dc">
-
+        <div class="requirement flex justify-between items-center w-page-content border-b">
+          <div class="dc flex items-center">
+            <span class="icon-wrapper flex justify-center items-center rounded-full bg-primary">
+            </span>
+            <span class="flex flex-col">
+              <span class="text-s">DATA CENTER</span>
+              <span class="mt-3 font-bold">Gaia</span>
+            </span>
           </div>
-          <div class="role">
-
+          <div class="role flex items-center">
+            <span class="icon-wrapper flex justify-center items-center rounded-full bg-primary">
+              <img src={ description } class="icon" />
+            </span>
+            <span class="flex flex-col">
+              <span class="text-s">募集ロール</span>
+              <span class="mt-3 font-bold">6</span>
+            </span>
           </div>
           <div class="recruit flex items-center">
             <span class="icon-wrapper flex justify-center items-center rounded-full bg-primary">
@@ -104,7 +116,7 @@ export default function Page() {
             </span>
             <span class="flex flex-col">
               <span class="text-s">募集人数</span>
-              <span class="text font-bold">6</span>
+              <span class="mt-3 font-bold">6</span>
             </span>
           </div>
         </div>
