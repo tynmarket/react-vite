@@ -5,7 +5,12 @@ import star from './star.svg'
 import clock from './clock-red.svg'
 import person from './person.svg'
 import description from './description-white.svg'
+import tank from './tank.svg'
+import healer from './healer.svg'
+import dps from './dps.svg'
+import done from './done.svg'
 import people from './people.svg'
+import tag from './tag.svg'
 import './Page.css'
 
 export default function Page() {
@@ -88,7 +93,7 @@ export default function Page() {
             </span>
             <span class="flex flex-col">
               <span class="text-s">アクティブメンバー数</span>
-              <span class="mt-3 font-bold">999</span>
+              <span class="text font-bold">999</span>
             </span>
           </div>
         </div>
@@ -98,7 +103,7 @@ export default function Page() {
             </span>
             <span class="flex flex-col">
               <span class="text-s">DATA CENTER</span>
-              <span class="mt-3 font-bold">Gaia</span>
+              <span class="text font-bold">Gaia</span>
             </span>
           </div>
           <div class="role flex items-center">
@@ -107,7 +112,18 @@ export default function Page() {
             </span>
             <span class="flex flex-col">
               <span class="text-s">募集ロール</span>
-              <span class="mt-3 font-bold">6</span>
+              <p class="role-inner flex justify-around">
+                <span class="done"><img src={ done } class="icon" /></span>
+                <span class="tank"><img src={ tank } class="icon" /></span>
+                {/* <span class="tank either-one"><img src={ tank } class="icon" /></span> */}
+                <span class="healer"><img src={ healer } class="icon" /></span>
+                <span class="healer"><img src={ healer } class="icon" /></span>
+                {/* <span class="healer either-one"><img src={ healer } class="icon" /></span> */}
+                <span class="dps"><img src={ dps } class="icon rotate-90" /></span>
+                <span class="done"><img src={ done } class="icon" /></span>
+                <span class="dps"><img src={ dps } class="icon rotate-90" /></span>
+                <span class="dps"><img src={ dps } class="icon rotate-90" /></span>
+              </p>
             </span>
           </div>
           <div class="recruit flex items-center">
@@ -116,12 +132,26 @@ export default function Page() {
             </span>
             <span class="flex flex-col">
               <span class="text-s">募集人数</span>
-              <span class="mt-3 font-bold">6</span>
+              <span class="text font-bold">6</span>
             </span>
           </div>
         </div>
-        <div>
-
+        <div class="tags flex justify-center items-center w-page-content border-b">
+          <span class="icon-wrapper flex justify-center items-center rounded-full bg-primary">
+            <img src={ tag } class="icon" />
+          </span>
+          <span class="tag border-box">#自由記入！</span>
+          <span class="tag border-box">#VCあり</span>
+          <span class="tag border-box">#聞き専可</span>
+          <span class="tag border-box">#調整枠あり</span>
+          <span class="tag border-box">#配信可</span>
+          <span class="tag border-box">#昼練習あり</span>
+        </div>
+        <div class="comment">
+          自由記入欄
+          <br/>
+          <br/>
+          詳しい募集要項やメンバー情報など
         </div>
       </div>
     </div>

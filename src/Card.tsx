@@ -92,18 +92,22 @@ export default function Card() {
               <div class="tag__container">
                 <span class="tag__item flex items-center">
                   <img src={ tag } class="tag__icon" />
+                  <span>自由記入！</span>
+                </span>
+                <span class="tag__item flex items-center">
+                  <img src={ tag } class="tag__icon" />
                   <span>VCあり</span>
                 </span>
                 <span class="tag__item flex items-center">
                   <img src={ tag } class="tag__icon" />
                   <span>聞き専可</span>
                 </span>
+              </div>
+              <div class="tag__container">
                 <span class="tag__item flex items-center">
                   <img src={ tag } class="tag__icon" />
                   <span>調整枠あり</span>
                 </span>
-              </div>
-              <div class="tag__container">
                 <span class="tag__item flex items-center">
                   <img src={ tag } class="tag__icon" />
                   <span>配信可</span>
