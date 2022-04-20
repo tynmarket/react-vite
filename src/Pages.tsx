@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 
 import Card from "./Card";
+
+import search from './search.svg'
 import './Pages.css'
 
 export default function Expenses() {
@@ -8,8 +10,14 @@ export default function Expenses() {
     <main>
       <div class="pages">
         <div class="search flex justify-between">
-          <div class="">aaa</div>
-          <div class="">bbb</div>
+          <ul class="">aaa
+          </ul>
+          <span class="search-button flex items-center rounded-8 text-white font-bold">
+            <span class="icon-wrapper flex items-center">
+              <img src={ search } class="icon" />
+            </span>
+            検索
+          </span>
         </div>
         <div class="cards">
 

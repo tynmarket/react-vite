@@ -47,8 +47,18 @@ code {
   padding-left: 8px;
 }
 
+/* TODO: 置き換え */
+.rounded-8 {
+  border-radius: 8px;
+}
+
 .bg-primary {
   background-color: var(--color-primary);
+}
+
+/* TODO: 置き換え */
+.bg-yellow {
+
 }
 
 .text-primary {
