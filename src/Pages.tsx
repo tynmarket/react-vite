@@ -5,7 +5,16 @@ import './Pages.css'
 
 export default function Expenses() {
   return (
-    <main style={{ padding: "1rem 0" }}>
+    <main>
+      <div class="pages">
+        <div class="search flex justify-between">
+          <div class="">aaa</div>
+          <div class="">bbb</div>
+        </div>
+        <div class="cards">
+
+        </div>
+      </div>
       <Link to="/page" class="link">
         <Card />
       </Link>

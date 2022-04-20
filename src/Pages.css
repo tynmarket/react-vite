@@ -1,3 +1,36 @@
+/**
+ * main structure
+ */
+.pages {
+  .search {
+    width: 904px;
+    margin: 0 auto;
+
+    @media screen and (min-width: calc(312px * 4)) {
+      width: calc(312px * 4 - 32px);
+    }
+
+    @media screen and (min-width: calc(312px * 5)) {
+      width: calc(312px * 5 - 32px);
+    }
+  }
+  .cards {
+    width: calc(312px * 3);
+    margin: 0 auto;
+
+    @media screen and (min-width: calc(312px * 4)) {
+      width: calc(312px * 4);
+    }
+
+    @media screen and (min-width: calc(312px * 5)) {
+      width: calc(312px * 5);
+    }
+  }
+}
+
+.pages {
+}
+
 .link {
   width: 280px;
   margin: auto;
