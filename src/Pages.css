@@ -2,9 +2,8 @@
  * main structure
  */
 .pages {
-  .search {
+  .search, .tags {
     width: 904px;
-    margin: 40px auto 30px;
 
     @media screen and (min-width: calc(312px * 4)) {
       width: calc(312px * 4 - 32px);
@@ -13,6 +12,13 @@
     @media screen and (min-width: calc(312px * 5)) {
       width: calc(312px * 5 - 32px);
     }
+  }
+  .search {
+    margin: 40px auto 30px;
+  }
+  .tags {
+    height: 32px;
+    margin-bottom: 72px;
   }
   .cards {
     width: calc(312px * 3);
@@ -30,6 +36,38 @@
 
 .pages {
 .search {
+  .category {
+    width: calc(100% - 138px);
+    height: 60px;
+    box-shadow: 7px 12px 24px 0px rgb(42 42 49 / 20%);
+    font-size: 16px;
+
+    .all {
+      width: 22%;
+    }
+    .fc {
+      width: 28%;
+    }
+    .ls {
+      width: 25%;
+    }
+    .party {
+      width: 25%;
+      max-width: 200px;
+
+      .icon {
+        width: 32px;
+        height: 32px;
+      }
+      .bottom-line {
+        position: absolute;
+        bottom: -14px;
+        right: 0;
+        height: 3px;
+        width: 200px;
+      }
+    }
+  }
   .search-button {
     width: 124px;
     height: 60px;
@@ -46,31 +84,26 @@
     width: 32px;
     height: 32px;
   }
-  .category {
-    width: calc(100% - 138px);
-    height: 60px;
-    font-size: 16px;
-
-    .all {
-      width: 22%;
-    }
-    .fc {
-      width: 28%;
-    }
-    .ls {
-      width: 25%;
-    }
-    .party {
-      width: 25%;
-
-      .icon {
-        width: 32px;
-        height: 32px;
-      }
-    }
+}
+.tags {
+  .title {
+    height: 30px;
+  }
+  .icon-wrapper {
+    width: 22px;
+    height: 22px;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .tag {
+    height: 30px;
+    padding: 0 18px;
+    border-radius: 15px;
+    line-height: 28px;
   }
 }
-
 }
 
 .link {

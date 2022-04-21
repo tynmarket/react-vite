@@ -15,7 +15,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0.3px;
   line-height: 1.5;
-  color: #313138;
+  color: var(--color-black);
 }
 
 code {
@@ -26,7 +26,6 @@ code {
 .w-global {
   width: var(--width-global);
 }
-
 .w-page {
   width: var(--width-page);
 }
@@ -39,6 +38,12 @@ code {
 }
 .ml-4 {
   margin-left: 4px;
+}
+.mr-4 {
+  margin-right: 4px;
+}
+.mr-6 {
+  margin-right: 6px;
 }
 .mr-8 {
   margin-right: 8px;
@@ -53,22 +58,41 @@ code {
   padding-left: 8px;
 }
 
+.border-b {
+  border-bottom: 1px solid var(--border-color-gray);
+}
+
+.border-box {
+  border: 1px solid var(--border-color-gray);
+  border-radius: 3px;
+  text-align: center;
+}
+
 /* TODO: 置き換え */
 .rounded-8 {
   border-radius: 8px;
 }
 
+.bg-black {
+  background-color: var(--color-black);
+}
 .bg-primary {
   background-color: var(--color-primary);
 }
-
 /* TODO: 置き換え */
 .bg-yellow {
 
 }
+.bg-white-z {
+  background: #fff;
+  z-index: 2;
+}
 
 .text-primary {
   color: var(--color-primary);
+}
+.text-page-gray {
+  color: var(--color-page-gray);
 }
 
 .font-s {
@@ -78,15 +102,8 @@ code {
 .font-11 {
   font-size: 11px;
 }
-
-.border-b {
-  border-bottom: 1px solid var(--border-color-gray);
-}
-
-.border-box {
-  border: 1px solid var(--border-color-gray);
-  border-radius: 3px;
-  text-align: center;
+.font-13 {
+  font-size: 13px;
 }
 
 .dot-line {
@@ -102,9 +119,4 @@ code {
     border-top: 1px dotted #4d4d54;
     content: "";
   }
-}
-
-.bg-white-z {
-  background: #fff;
-  z-index: 2;
 }

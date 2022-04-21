@@ -1,7 +1,7 @@
 /**
  * main structure
  */
-.pages {
+.page {
   .nav-bar {
     height: 81px;
     padding-right: 22px;
@@ -16,7 +16,7 @@
   }
 }
 
-.pages {
+.page {
 /**
  * nav-bar
  */
@@ -229,7 +229,7 @@
     .tag {
       padding: 0 18px;
       border-radius: 15px;
-      line-height: 30px;
+      line-height: 28px;
     }
     .tag {
       margin: 0 2px;

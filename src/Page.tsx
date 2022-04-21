@@ -15,7 +15,7 @@ import './Page.css'
 
 export default function Page() {
   return (
-    <div class="pages">
+    <div class="page">
       { /* TODO: Sticky */ }
       <div class="nav-bar flex justify-between w-full bg-primary">
         <div class="flex items-center">
@@ -144,8 +144,8 @@ export default function Page() {
           <span class="tag border-box">#VCあり</span>
           <span class="tag border-box">#聞き専可</span>
           <span class="tag border-box">#調整枠あり</span>
-          <span class="tag border-box">#配信可</span>
           <span class="tag border-box">#昼練習あり</span>
+          <span class="tag border-box">#配信あり</span>
         </div>
         <div class="comment">
           自由記入欄
