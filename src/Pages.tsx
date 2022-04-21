@@ -46,19 +46,19 @@ export default function Expenses() {
           <span class="tag mr-4 border-box rounded-15">#配信あり</span>
         </div>
         <div class="cards flex flex-wrap">
-          <Link to="/page" class="link">
+          <Link to="/page" target="_blank" class="link">
             <Card />
           </Link>
-          <Link to="/page" class="link">
+          <Link to="/page" target="_blank" class="link">
             <Card />
           </Link>
-          <Link to="/page" class="link">
+          <Link to="/page" target="_blank" class="link">
             <Card />
           </Link>
-          <Link to="/page" class="link">
+          <Link to="/page" target="_blank" class="link">
             <Card />
           </Link>
-          <Link to="/page" class="link">
+          <Link to="/page" target="_blank" class="link">
             <Card />
           </Link>
         </div>
