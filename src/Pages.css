@@ -104,15 +104,13 @@
     line-height: 28px;
   }
 }
-}
-
-.link {
-  width: 280px;
-  margin: auto;
-  display: block;
-  text-decoration-line: none;
-
-  * {
+.cards {
+  .link {
+    margin: 0 16px;
+    padding-bottom: 72px;
     cursor: pointer;
+    display: block;
+    text-decoration-line: none;
   }
+}
 }

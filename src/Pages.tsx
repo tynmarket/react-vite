@@ -45,13 +45,24 @@ export default function Expenses() {
           <span class="tag mr-4 border-box rounded-15">#昼練習あり</span>
           <span class="tag mr-4 border-box rounded-15">#配信あり</span>
         </div>
-        <div class="cards">
-
+        <div class="cards flex flex-wrap">
+          <Link to="/page" class="link">
+            <Card />
+          </Link>
+          <Link to="/page" class="link">
+            <Card />
+          </Link>
+          <Link to="/page" class="link">
+            <Card />
+          </Link>
+          <Link to="/page" class="link">
+            <Card />
+          </Link>
+          <Link to="/page" class="link">
+            <Card />
+          </Link>
         </div>
       </div>
-      <Link to="/page" class="link">
-        <Card />
-      </Link>
     </main>
   );
 }
