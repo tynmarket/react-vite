@@ -108,9 +108,12 @@
   .link {
     margin: 0 16px;
     padding-bottom: 72px;
-    cursor: pointer;
     display: block;
     text-decoration-line: none;
+
+    * {
+     cursor: pointer;
+    }
   }
 }
 }
