@@ -37,6 +37,12 @@ code {
 .mb-2 {
   margin-bottom: 2px;
 }
+.ml-4 {
+  margin-left: 4px;
+}
+.mr-8 {
+  margin-right: 8px;
+}
 .pl-4 {
   padding-left: 4px;
 }
@@ -68,6 +74,9 @@ code {
 .font-s {
   font-size: 10px;
   line-height: 10px;
+}
+.font-11 {
+  font-size: 11px;
 }
 
 .border-b {
