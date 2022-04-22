@@ -2,7 +2,7 @@
  * main structure
  */
 .pages {
-  .search, .tags {
+  .search, .tags, .menu {
     width: 904px;
 
     @media screen and (min-width: calc(312px * 4)) {
@@ -39,7 +39,6 @@
   .category {
     width: calc(100% - 138px);
     height: 60px;
-    box-shadow: 7px 12px 24px 0px rgb(42 42 49 / 20%);
     font-size: 16px;
 
     .title {
@@ -82,13 +81,36 @@
     &:hover {
       background: #fccb15;
     }
+    .icon-wrapper {
+      width: 42px;
+    }
+    .icon {
+      width: 32px;
+      height: 32px;
+    }
   }
-  .icon-wrapper {
-    width: 42px;
-  }
-  .icon {
-    width: 32px;
-    height: 32px;
+  .menu {
+    position: absolute;
+    top: 74px;
+    height: 189px;
+
+    .menu-tags {
+      height: 68px;
+
+      .title {
+        min-width: 100px;
+
+        .icon-wrapper {
+          width: 18px;
+          height: 18px;
+          margin-left: 20px;
+        }
+        .icon {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
   }
 }
 .tags {

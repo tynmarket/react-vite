@@ -48,6 +48,9 @@ code {
 .mr-8 {
   margin-right: 8px;
 }
+.mr-10 {
+  margin-right: 10px;
+}
 .pl-4 {
   padding-left: 4px;
 }
@@ -73,6 +76,10 @@ code {
   border-radius: 8px;
 }
 
+.shadow-pages {
+  box-shadow: 7px 12px 24px 0px rgb(42 42 49 / 20%);
+}
+
 .bg-black {
   background-color: var(--color-black);
 }
@@ -88,7 +95,7 @@ code {
 }
 .bg-white-z {
   background: #fff;
-  z-index: 2;
+  z-index: 3;
 }
 
 .text-primary {
@@ -107,6 +114,9 @@ code {
 }
 .font-13 {
   font-size: 13px;
+}
+.font-14 {
+  font-size: 14px;
 }
 
 .transition {

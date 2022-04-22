@@ -11,8 +11,8 @@ export default function Expenses() {
   return (
     <main>
       <div class="pages">
-        <div class="search flex justify-between">
-          <ul class="category flex items-center rounded-8 font-bold">
+        <div class="search flex justify-between relative">
+          <ul class="category flex items-center rounded-8 shadow-pages font-bold">
             <li class="all">
               <span class="title flex justify-center items-center mx-auto">
                 <img src={ party } class="icon mr-8 invisible" />
@@ -57,6 +57,19 @@ export default function Expenses() {
             </span>
             検索
           </button>
+          <div class="menu rounded-8 shadow-pages bg-white-z">
+            <div class="menu-tags flex items-center">
+              <div class="title flex items-center font-14 font-bold">
+                <span class="icon-wrapper flex justify-center items-center mr-10 rounded-full bg-black">
+                  <img src={ tag } class="icon" />
+                </span>
+                アピールタグ
+              </div>
+              <div class="tag">
+
+              </div>
+            </div>
+          </div>
         </div>
         <div class="tags flex flex-wrap justify-center mx-auto">
           <span class="title flex items-center mr-8 font-13 font-bold">
