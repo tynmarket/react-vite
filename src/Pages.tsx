@@ -12,35 +12,43 @@ export default function Expenses() {
     <main>
       <div class="pages">
         <div class="search flex justify-between">
-          <ul class="category flex items-center text-center rounded-8 font-bold">
-            <li class="all flex justify-center items-center mx-auto">
-              <img src={ party } class="icon mr-8 invisible" />
-              <span>
-                ALL
-                <span class="ml-4 font-11 font-normal text-page-gray">(0)</span>
+          <ul class="category flex items-center rounded-8 font-bold">
+            <li class="all">
+              <span class="title flex justify-center items-center mx-auto">
+                <img src={ party } class="icon mr-8 invisible" />
+                <span>
+                  ALL
+                  <span class="ml-4 font-11 font-normal text-page-gray">(0)</span>
+                </span>
               </span>
             </li>
-            <li class="fc flex justify-center items-center mx-auto">
-              <img src={ party } class="icon mr-8 invisible" />
-              <span>
-                フリーカンパニー
-                <span class="ml-4 font-11 font-normal text-page-gray">(0)</span>
+            <li class="fc">
+              <span class="title flex justify-center items-center mx-auto">
+                <img src={ party } class="icon mr-8 invisible" />
+                <span>
+                  フリーカンパニー
+                  <span class="ml-4 font-11 font-normal text-page-gray">(0)</span>
+                </span>
               </span>
             </li>
-            <li class="ls flex justify-center items-center mx-auto">
-              <img src={ party } class="icon mr-8 invisible" />
-              <span>
-                LS & CWLS
-                <span class="ml-4 font-11 font-normal text-page-gray">(0)</span>
+            <li class="ls">
+              <span class="title flex justify-center items-center mx-auto">
+                <img src={ party } class="icon mr-8 invisible" />
+                <span>
+                  LS & CWLS
+                  <span class="ml-4 font-11 font-normal text-page-gray">(0)</span>
+                </span>
               </span>
             </li>
-            <li class="party flex justify-center items-center relative mx-auto">
-              <img src={ party } class="icon mr-8" />
-              <span>
-                固定パーティー
-                <span class="ml-4 font-11 font-normal text-page-gray">(3)</span>
+            <li class="party">
+              <span class="title flex justify-center items-center relative mx-auto">
+                <img src={ party } class="icon mr-8" />
+                <span>
+                  固定パーティー
+                  <span class="ml-4 font-11 font-normal text-page-gray">(3)</span>
+                </span>
+                <span class="bottom-line absolute bg-primary"></span>
               </span>
-              <span class="bottom-line absolute bg-primary"></span>
             </li>
           </ul>
           <span class="search-button flex items-center rounded-8 text-white font-bold">

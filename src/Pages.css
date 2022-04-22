@@ -42,6 +42,9 @@
     box-shadow: 7px 12px 24px 0px rgb(42 42 49 / 20%);
     font-size: 16px;
 
+    .title {
+      max-width: 200px;
+    }
     .all {
       width: 22%;
     }
@@ -53,7 +56,6 @@
     }
     .party {
       width: 25%;
-      max-width: 200px;
 
       .icon {
         width: 32px;
