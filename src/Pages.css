@@ -78,6 +78,10 @@
     font-size: 14px;
     box-shadow: 7px 12px 24px 0px rgb(235 181 10 / 20%);
     cursor: pointer;
+
+    &:hover {
+      background: #fccb15;
+    }
   }
   .icon-wrapper {
     width: 42px;
@@ -104,6 +108,13 @@
     padding: 0 18px;
     border-radius: 15px;
     line-height: 28px;
+
+    &:hover {
+      border: 1px solid var(--color-jet-black);
+      background: var(--color-jet-black);
+      color: #fff;
+      cursor: pointer;
+    }
   }
 }
 .cards {

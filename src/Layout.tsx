@@ -9,7 +9,7 @@ import './Layout.css'
 export default function Layout() {
   return (
     <div class="layout">
-      <div class="brand w-full"></div>
+      <div class="brand w-full bg-jet-black"></div>
       <header class="header flex items-center w-full">
         <div class="flex justify-end w-global mx-auto">
           <div class="my-character flex justify-between items-center relative">
@@ -29,7 +29,7 @@ export default function Layout() {
           </div>
         </div>
       </header>
-      <div class="global-nav w-full">
+      <div class="global-nav w-full bg-jet-black">
         <nav class="nav-bar flex w-global mx-auto">
           <div class="nav-item"></div>
           <div class="nav-item"></div>

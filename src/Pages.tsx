@@ -51,12 +51,12 @@ export default function Expenses() {
               </span>
             </li>
           </ul>
-          <span class="search-button flex items-center rounded-8 text-white font-bold">
+          <button class="search-button flex items-center rounded-8 text-white font-bold transition">
             <span class="icon-wrapper flex items-center">
               <img src={ search } class="icon" />
             </span>
             検索
-          </span>
+          </button>
         </div>
         <div class="tags flex flex-wrap justify-center mx-auto">
           <span class="title flex items-center mr-8 font-13 font-bold">
@@ -65,11 +65,11 @@ export default function Expenses() {
             </span>
             アピールタグ
           </span>
-          <span class="tag mr-4 border-box rounded-15">#VCあり</span>
-          <span class="tag mr-4 border-box rounded-15">#聞き専可</span>
-          <span class="tag mr-4 border-box rounded-15">#調整枠あり</span>
-          <span class="tag mr-4 border-box rounded-15">#昼練習あり</span>
-          <span class="tag mr-4 border-box rounded-15">#配信あり</span>
+          <span class="tag mr-4 border-box rounded-15 transition">#VCあり</span>
+          <span class="tag mr-4 border-box rounded-15 transition">#聞き専可</span>
+          <span class="tag mr-4 border-box rounded-15 transition">#調整枠あり</span>
+          <span class="tag mr-4 border-box rounded-15 transition">#昼練習あり</span>
+          <span class="tag mr-4 border-box rounded-15 transition">#配信あり</span>
         </div>
         <div class="cards flex flex-wrap">
           <Link to="/page" target="_blank" class="link">

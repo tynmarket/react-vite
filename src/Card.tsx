@@ -15,7 +15,7 @@ import './Card.css'
 
 export default function Card() {
   return (
-    <div class="card">
+    <div class="card transition">
       <div class="card-upper">
         <span class="party flex items-center text-primary font-bold">
           <img src={ party } class="icon" />

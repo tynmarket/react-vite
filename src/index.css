@@ -76,6 +76,9 @@ code {
 .bg-black {
   background-color: var(--color-black);
 }
+.bg-jet-black {
+  background-color: var(--color-jet-black);
+}
 .bg-primary {
   background-color: var(--color-primary);
 }
@@ -104,6 +107,10 @@ code {
 }
 .font-13 {
   font-size: 13px;
+}
+
+.transition {
+  transition: all .2s ease-in-out;
 }
 
 .dot-line {
