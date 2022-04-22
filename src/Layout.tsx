@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import face from './face.svg'
 import home from './home.svg'
 import star from './star-stack.svg'
@@ -32,7 +34,6 @@ export default function Layout() {
           <div class="nav-item"></div>
           <div class="nav-item"></div>
           <div class="nav-item"></div>
-          { /* TODO: リンク */ }
           <div class="nav-item active font-bold">
             コミュニティ
           </div>
@@ -42,11 +43,11 @@ export default function Layout() {
       </div>
       <div class="cf-nav flex justify-between">
         <div class="flex">
-          <div class="cf-logo flex font-bold">
+          <Link to="/" class="cf-logo flex font-bold">
             コミュニティ
             <img src={ star } class="icon" />
             ファインダー
-          </div>
+          </Link>
           { /* ページごとの表示非表示 */ }
           <div class="cf-dc flex items-center">
             <span class="cf-item flex flex-col">
