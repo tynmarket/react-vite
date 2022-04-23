@@ -6,6 +6,7 @@ import party from './party.svg'
 import search from './search.svg'
 import tag from './tag.svg'
 import clock from './clock-black.svg'
+import close from './close.svg'
 import './Pages.css'
 
 export default function Expenses() {
@@ -52,7 +53,7 @@ export default function Expenses() {
               </span>
             </li>
           </ul>
-          <button class="search-button flex items-center rounded-8 text-white font-bold transition">
+          <button class="open-search flex items-center rounded-8 text-white font-bold transition">
             <span class="icon-wrapper flex items-center">
               <img src={ search } class="icon" />
             </span>
@@ -162,6 +163,20 @@ export default function Expenses() {
                   <span class="arrow to text-jet-black">▼</span>
                 </div>
               </span>
+            </div>
+            <div class="others flex justify-end items-center border-t">
+              <div class="clear flex justify-center items-center border-l text-white">
+                <button class="flex items-center ph-10 rounded-8 font-12 font-bold">
+                  <span class="icon-wrapper flex justify-center items-center mr-7 rounded-full bg-jet-black">
+                    <img src={ close } class="icon" />
+                  </span>
+                  検索条件をすべてクリア
+                </button>
+              </div>
+              <button class="search-button flex justify-center items-center text-white font-16 font-bold">
+                <img src={ search } class="icon" />
+                絞り込む
+              </button>
             </div>
           </div>
         </div>

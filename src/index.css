@@ -65,6 +65,9 @@ code {
 .mr-6 {
   margin-right: 6px;
 }
+.mr-7 {
+  margin-right: 7px;
+}
 .mr-8 {
   margin-right: 8px;
 }
@@ -83,6 +86,10 @@ code {
 }
 .pl-8 {
   padding-left: 8px;
+}
+.ph-10 {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .border-t {
@@ -147,6 +154,9 @@ code {
 }
 .font-11 {
   font-size: 11px;
+}
+.font-12 {
+  font-size: 12px;
 }
 .font-13 {
   font-size: 13px;
