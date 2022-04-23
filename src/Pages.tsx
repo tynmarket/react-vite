@@ -60,8 +60,8 @@ export default function Expenses() {
             検索
           </button>
           { /* TODO: レスポンシブ */ }
-          <div class="menu rounded-8 shadow-pages bg-white-z letter-03-all">
-            <div class="menu-tags flex items-center">
+          <div class="condition rounded-8 shadow-pages bg-white-z letter-03-all">
+            <div class="condition-tags flex items-center">
               <div class="title flex items-center font-14 font-bold">
                 <span class="icon-wrapper flex justify-center items-center mr-10 rounded-full bg-black">
                   <img src={ tag } class="icon" />

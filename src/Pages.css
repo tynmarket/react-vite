@@ -2,7 +2,7 @@
  * main structure
  */
 .pages {
-  .search, .tags, .menu {
+  .search, .tags, .condition {
     width: 904px;
 
     @media screen and (min-width: calc(312px * 4)) {
@@ -89,12 +89,12 @@
       height: 32px;
     }
   }
-  .menu {
+  .condition {
     position: absolute;
     top: 74px;
     height: 189px;
 
-    .menu-tags {
+    .condition-tags {
       height: 68px;
 
       .title {
