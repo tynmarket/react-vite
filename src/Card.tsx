@@ -32,7 +32,7 @@ export default function Card() {
           <header class="summary">
             <h2 class="user-name card-title justify-center text-l">Tyn Market</h2>
             <p class="content flex justify-center items-center">
-              <img src={ content } class="icon" />
+              <img src={ content } class="icon mr-2" />
               絶竜詩戦争 [Gaia]
             </p>
           </header>
@@ -57,13 +57,15 @@ export default function Card() {
             </span>
             <p class="activity-goal row flex justify-between dot-line">
               <span class="item-title flex items-center bg-white-z">
-                <img src={ goal } class="icon" />
+                <span class="icon-wrapper flex justify-center items-center mr-4 rounded-full bg-green">
+                  <img src={ goal } class="icon" />
+                </span>
                 クリア目標
               </span>
               <span class="pl-8 text-l bg-white-z">2〜3ヶ月</span>
             </p>
             <p class="activity-recruit row flex justify-between dot-line">
-              <span class="item-title flex items-center bg-white-z">
+              <span class="item-title flex items-center">
                 <span class="icon-wrapper flex justify-center items-center mr-4 rounded-full bg-green">
                   <img src={ people } class="icon" />
                 </span>
@@ -75,7 +77,9 @@ export default function Card() {
           <div class="description">
             <p class="flex justify-between">
               <span class="role__title item-title flex items-center bg-white-z">
-                <img src={ description } class="icon" />
+                <span class="icon-wrapper flex justify-center items-center mr-4 rounded-full bg-green">
+                  <img src={ description } class="icon" />
+                </span>
                 募集ロール
               </span>
             </p>
@@ -94,29 +98,29 @@ export default function Card() {
             <div class="tag flex">
               <div class="tag__container">
                 <span class="tag__item flex items-center">
-                  <img src={ tag } class="tag__icon" />
+                  <img src={ tag } class="tag__icon mr-8" />
                   <span>自由記入！</span>
                 </span>
                 <span class="tag__item flex items-center">
-                  <img src={ tag } class="tag__icon" />
+                  <img src={ tag } class="tag__icon mr-8" />
                   <span>VCあり</span>
                 </span>
                 <span class="tag__item flex items-center">
-                  <img src={ tag } class="tag__icon" />
+                  <img src={ tag } class="tag__icon mr-8" />
                   <span>聞き専可</span>
                 </span>
               </div>
               <div class="tag__container">
                 <span class="tag__item flex items-center">
-                  <img src={ tag } class="tag__icon" />
+                  <img src={ tag } class="tag__icon mr-8" />
                   <span>調整枠あり</span>
                 </span>
                 <span class="tag__item flex items-center">
-                  <img src={ tag } class="tag__icon" />
+                  <img src={ tag } class="tag__icon mr-8" />
                   <span>配信可</span>
                 </span>
                 <span class="tag__item flex items-center">
-                  <img src={ tag } class="tag__icon" />
+                  <img src={ tag } class="tag__icon mr-8" />
                   <span>昼練習あり</span>
                 </span>
               </div>
@@ -124,7 +128,7 @@ export default function Card() {
           </div>
           <div class="extra">
             <span class="world flex font-bold">
-              <span class="world__icon-wrapper rounded-full bg-primary">
+              <span class="world__icon-wrapper mr-4 rounded-full bg-primary">
                 <img src={ world } class="icon" />
               </span>
               JA

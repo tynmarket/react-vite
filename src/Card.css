@@ -48,7 +48,6 @@
     .icon {
       width: 28px;
       height: 28px;
-      margin-right: 0;
     }
   }
   .new {
@@ -129,15 +128,18 @@
   .row {
     width: 234px;
   }
-  .icon {
-    width: 21px;
-    height: 21px;
-  }
   .item-title {
     line-height: 21px;
   }
   .time-title {
     margin-bottom: 6.5px;
+
+    .icon {
+      width: 21px;
+      height: 21px;
+      margin-left: -1.5px;
+      margin-right: 2px;
+    }
   }
   .border-box {
     margin-right: 14px;
@@ -155,6 +157,18 @@
       height: 18px;
     }
   }
+  .activity-goal {
+    .icon {
+      width: 14px;
+      height: 14px;
+    }
+  }
+  .activity-recruit {
+    .icon {
+      width: 18px;
+      height: 18px;
+    }
+  }
 }
 
 /**
@@ -166,9 +180,13 @@
     margin-bottom: 14px;
 
     &__title {
+      .icon-wrapper {
+        width: 18px;
+        height: 18px;
+      }
       .icon {
-        margin-right: 4.25px;
-        margin-left: 1.5px;
+        width: 14px;
+        height: 14px;
       }
     }
     &__icon {
@@ -214,7 +232,6 @@
     &__icon {
       width: 15px;
       height: 15px;
-      margin-right: 8px;
       border: 2px solid #313138;
       border-radius: 50%;
       background: #313138;
@@ -232,11 +249,9 @@
     bottom: 10px;
 
     &__icon-wrapper {
-      margin-right: 4px;
       border: 3.5px solid var(--color-primary);
     }
     .icon {
-      margin-right: 0;
       width: 11px;
       height: 11px;
     }
@@ -255,7 +270,6 @@
   .icon {
     width: 24px;
     height: 24px;
-    margin-right: 0;
   }
 }
 
@@ -268,12 +282,6 @@
 /**
  * parts
  */
-.icon {
-  width: 19.5px;
-  height: 19.5px;
-  margin-right: 4px;
-}
-
 .item-title {
   padding-right: 8px;
   font-size: 13px;
