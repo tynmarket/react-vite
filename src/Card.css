@@ -10,7 +10,6 @@
   }
   .card-upper {}
   .card-inner {
-    position: relative;
     padding-top: 136px;
 
     .card-image {
@@ -33,7 +32,7 @@
       box-shadow: 7px 12px 24px 0px rgb(6 0 1 / 15%);
     }
     .card-footer {
-      padding-top: 5px;
+      padding-top: 6px;
       font-size: 10px;
       line-height: 18px;
     }
@@ -239,13 +238,31 @@
   }
 }
 
+.to-detail {
+  position: absolute;
+  bottom: -16px;
+  width: 165px;
+  height: 44px;
+  padding: 0 12px 0 18px;
+  box-shadow: 3px 6px 7px 0px rgb(226 69 36 / 20%);
+  display: none;
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 0;
+  }
+}
+
+&:hover {
+  .to-detail {
+    display: flex;
+  }
+}
+
 /**
  * parts
  */
-.link {
-
-}
-
 .icon {
   width: 19.5px;
   height: 19.5px;

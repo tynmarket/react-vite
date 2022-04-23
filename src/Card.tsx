@@ -11,6 +11,7 @@ import done from './done.svg'
 import tag from './tag.svg'
 import description from './description.svg'
 import world from './world.svg'
+import arrow from './arrow-right.svg'
 import './Card.css'
 
 export default function Card() {
@@ -25,7 +26,7 @@ export default function Card() {
           NEW
         </span>
       </div>
-      <div class="card-inner">
+      <div class="card-inner relative">
         <div class="card-image bg-primary"><img src={ logo } /></div>
         <div class="card-body">
           <header class="summary">
@@ -130,6 +131,10 @@ export default function Card() {
         </div>
         <div class="card-footer text-right">
           <span class="font-bold">募集期間: 2022/05/13 まで</span>
+        </div>
+        <div class="to-detail flex justify-between items-center rounded-6 bg-primary">
+          <span class="font-14 font-bold text-white">詳細を見る</span>
+          <img src={ arrow } class="icon" />
         </div>
       </div>
     </div>
