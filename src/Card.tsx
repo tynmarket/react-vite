@@ -64,7 +64,9 @@ export default function Card() {
             </p>
             <p class="activity-recruit row flex justify-between dot-line">
               <span class="item-title flex items-center bg-white-z">
-                <img src={ people } class="icon" />
+                <span class="icon-wrapper flex justify-center items-center mr-4 rounded-full bg-green">
+                  <img src={ people } class="icon" />
+                </span>
                 募集人数
               </span>
               <span class="pl-8 text-l bg-white-z">2</span>
