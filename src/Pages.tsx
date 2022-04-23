@@ -166,14 +166,14 @@ export default function Expenses() {
             </div>
             <div class="others flex justify-end items-center border-t">
               <div class="clear flex justify-center items-center border-l text-white">
-                <button class="flex items-center ph-10 rounded-8 font-12 font-bold">
+                <button class="flex items-center ph-10 rounded-8 font-12 font-bold transition">
                   <span class="icon-wrapper flex justify-center items-center mr-7 rounded-full bg-jet-black">
                     <img src={ close } class="icon" />
                   </span>
                   検索条件をすべてクリア
                 </button>
               </div>
-              <button class="search-button flex justify-center items-center text-white font-16 font-bold">
+              <button class="search-button flex justify-center items-center text-white font-16 font-bold transition">
                 <img src={ search } class="icon" />
                 絞り込む
               </button>

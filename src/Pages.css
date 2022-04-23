@@ -177,6 +177,10 @@
         button {
           height: 30px;
           background-color: #2a2a31;
+
+          &:hover {
+            background-color: #3f3f46;
+          }
         }
         .icon-wrapper {
           width: 18px;
@@ -192,6 +196,10 @@
         height: 60px;
         padding-right: 5px;
         background-color: #cc2944;
+
+        &:hover {
+          background: #e02d4b;
+        }
 
         .icon {
           width: 32px;
