@@ -99,16 +99,15 @@
 
       .title {
         min-width: 100px;
-
-        .icon-wrapper {
-          width: 18px;
-          height: 18px;
-          margin-left: 20px;
-        }
-        .icon {
-          width: 16px;
-          height: 16px;
-        }
+      }
+      .icon-wrapper {
+        width: 18px;
+        height: 18px;
+        margin-left: 20px;
+      }
+      .icon {
+        width: 16px;
+        height: 16px;
       }
       .tag-select {
         select, .free {
@@ -118,14 +117,9 @@
           width: 160px;
           padding: 8px 30px 8px 14px;
           border-radius: 20px;
-          appearance: none;
         }
         .arrow {
-          position: absolute;
           right: 14px;
-          line-height: 40px;
-          font-size: 10px;
-          transform: scale(0.65, 0.85);
         }
         .free {
           width: 240px;
@@ -136,6 +130,41 @@
             font-weight: bold;
             letter-spacing: 0.3px;
           }
+        }
+      }
+    }
+    .activity {
+      height: 60px;
+
+      .icon-wrapper {
+        width: 18px;
+        height: 18px;
+        margin-left: 20px;
+      }
+      .icon {
+        width: 22px;
+        height: 22px;
+        margin-left: 18px;
+      }
+      .day {
+        width: 86px;
+        height: 40px;
+        margin-left: 30px;
+      }
+      .times {
+        width: 200px;
+      }
+      .time {
+        width: 90px;
+        line-height: 16px;
+        padding: 9.5px 20px 12.5px 14px;
+      }
+      .arrow {
+        &.from {
+          right: 12.5px;
+        }
+        &.to {
+          right: 10.5px;
         }
       }
     }

@@ -5,6 +5,7 @@ import Card from "./Card";
 import party from './party.svg'
 import search from './search.svg'
 import tag from './tag.svg'
+import clock from './clock-black.svg'
 import './Pages.css'
 
 export default function Expenses() {
@@ -57,7 +58,8 @@ export default function Expenses() {
             </span>
             検索
           </button>
-          <div class="menu rounded-8 shadow-pages bg-white-z">
+          { /* TODO: レスポンシブ */ }
+          <div class="menu rounded-8 shadow-pages bg-white-z letter-03-all">
             <div class="menu-tags flex items-center">
               <div class="title flex items-center font-14 font-bold">
                 <span class="icon-wrapper flex justify-center items-center mr-10 rounded-full bg-black">
@@ -67,7 +69,7 @@ export default function Expenses() {
               </div>
               <div class="tag-select flex items-center text-page-gray">
                 <div class="flex items-center relative mh-4">
-                  <select class="font-bold border-all bg-white letter-03">
+                  <select class="border-all bg-white font-bold">
                     <option>1. 定型タグを選択</option>
                     <option>VCあり</option>
                     <option>VCなし</option>
@@ -79,7 +81,7 @@ export default function Expenses() {
                   <span class="arrow text-jet-black">▼</span>
                 </div>
                 <div class="flex items-center relative mh-4">
-                  <select class="font-bold border-all bg-white letter-03">
+                  <select class="border-all bg-white font-bold">
                     <option>2. 定型タグを選択</option>
                     <option>VCあり</option>
                     <option>VCなし</option>
@@ -91,7 +93,7 @@ export default function Expenses() {
                   <span class="arrow text-jet-black">▼</span>
                 </div>
                 <div class="flex items-center relative mh-4">
-                  <select class="font-bold border-all bg-white letter-03">
+                  <select class="border-all bg-white font-bold">
                     <option>3. 定型タグを選択</option>
                     <option>VCあり</option>
                     <option>VCなし</option>
@@ -103,7 +105,7 @@ export default function Expenses() {
                   <span class="arrow text-jet-black">▼</span>
                 </div>
                 <div class="flex items-center relative mh-4">
-                  <select class="font-bold border-all bg-white letter-03">
+                  <select class="border-all bg-white font-bold">
                     <option>4. 定型タグを選択</option>
                     <option>VCあり</option>
                     <option>VCなし</option>
@@ -116,6 +118,50 @@ export default function Expenses() {
                 </div>
                 <input class="free ml-4 border-all" type="text" placeholder="自由入力されたタグを検索" />
               </div>
+            </div>
+            <div class="activity flex items-center border-t">
+              <div class="title flex items-center font-14 font-bold">
+                <img src={ clock } class="icon mr-8" />
+                活動時間
+              </div>
+              <span class="day flex justify-center items-center border-l font-bold">
+                平日
+              </span>
+              <span class="times dot-line flex justify-between items-center text-page-gray">
+                <div class="flex items-center relative">
+                  <select class="time mr-3 border-all rounded-8 font-16 font-bold">
+                    <option>--:--</option>
+                    <option>21:00</option>
+                  </select>
+                  <span class="arrow from text-jet-black">▼</span>
+                </div>
+                <div class="flex items-center relative">
+                  <select class="time ml-3 border-all rounded-8 font-16 font-bold">
+                    <option>--:--</option>
+                    <option>21:00</option>
+                  </select>
+                  <span class="arrow to text-jet-black">▼</span>
+                </div>
+              </span>
+              <span class="day flex justify-center items-center border-l font-bold">
+                週末
+              </span>
+              <span class="times dot-line flex justify-between items-center text-page-gray">
+                <div class="flex items-center relative">
+                  <select class="time mr-3 border-all rounded-8 font-16 font-bold">
+                    <option>--:--</option>
+                    <option>21:00</option>
+                  </select>
+                  <span class="arrow from text-jet-black">▼</span>
+                </div>
+                <div class="flex items-center relative">
+                  <select class="time ml-3 border-all rounded-8 font-16 font-bold">
+                    <option>--:--</option>
+                    <option>21:00</option>
+                  </select>
+                  <span class="arrow to text-jet-black">▼</span>
+                </div>
+              </span>
             </div>
           </div>
         </div>

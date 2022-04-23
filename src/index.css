@@ -22,6 +22,10 @@ body {
   color: var(--color-black);
 }
 
+select {
+  appearance: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -40,8 +44,20 @@ code {
 .mb-2 {
   margin-bottom: 2px;
 }
+.ml-2 {
+  margin-left: 2px;
+}
+.ml-3 {
+  margin-left: 3px;
+}
 .ml-4 {
   margin-left: 4px;
+}
+.mr-2 {
+  margin-right: 2px;
+}
+.mr-3 {
+  margin-right: 3px;
 }
 .mr-4 {
   margin-right: 4px;
@@ -69,8 +85,14 @@ code {
   padding-left: 8px;
 }
 
+.border-t {
+  border-top: 1px solid var(--border-color-gray);
+}
 .border-b {
   border-bottom: 1px solid var(--border-color-gray);
+}
+.border-l {
+  border-left: 1px solid var(--border-color-gray);
 }
 .border-all {
   border: 1px solid var(--border-color-gray);
@@ -132,18 +154,37 @@ code {
 .font-14 {
   font-size: 14px;
 }
+.font-16 {
+  font-size: 16px;
+}
 
 .letter-03 {
   letter-spacing: 0.3px;
+}
+/** 置き換え検討 **/
+.letter-03-all {
+  * {
+    letter-spacing: 0.3px;
+  }
 }
 
 .transition {
   transition: all .2s ease-in-out;
 }
 
+.arrow {
+  position: absolute;
+  font-size: 10px;
+  transform: scale(0.65, 0.85);
+}
+
 .dot-line {
   position: relative;
 
+  & > * {
+    background: #fff;
+    z-index: 2;
+  }
   &::after {
     position: absolute;
     top: 50%;
