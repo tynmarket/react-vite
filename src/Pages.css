@@ -110,6 +110,34 @@
           height: 16px;
         }
       }
+      .tag-select {
+        select, .free {
+          height: 40px;
+        }
+        select {
+          width: 160px;
+          padding: 8px 30px 8px 14px;
+          border-radius: 20px;
+          appearance: none;
+        }
+        .arrow {
+          position: absolute;
+          right: 14px;
+          line-height: 40px;
+          font-size: 10px;
+          transform: scale(0.65, 0.85);
+        }
+        .free {
+          width: 240px;
+          padding: 6px 16px 8px 14px;
+          border-radius: 20px;
+
+          &::placeholder {
+            font-weight: bold;
+            letter-spacing: 0.3px;
+          }
+        }
+      }
     }
   }
 }

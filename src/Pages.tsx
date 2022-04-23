@@ -65,8 +65,56 @@ export default function Expenses() {
                 </span>
                 アピールタグ
               </div>
-              <div class="tag">
-
+              <div class="tag-select flex items-center text-page-gray">
+                <div class="flex items-center relative mh-4">
+                  <select class="font-bold border-all bg-white letter-03">
+                    <option>1. 定型タグを選択</option>
+                    <option>VCあり</option>
+                    <option>VCなし</option>
+                    <option>聞き専可</option>
+                    <option>調整枠あり</option>
+                    <option>昼練習あり</option>
+                    <option>配信あり</option>
+                  </select>
+                  <span class="arrow text-jet-black">▼</span>
+                </div>
+                <div class="flex items-center relative mh-4">
+                  <select class="font-bold border-all bg-white letter-03">
+                    <option>2. 定型タグを選択</option>
+                    <option>VCあり</option>
+                    <option>VCなし</option>
+                    <option>聞き専可</option>
+                    <option>調整枠あり</option>
+                    <option>昼練習あり</option>
+                    <option>配信あり</option>
+                  </select>
+                  <span class="arrow text-jet-black">▼</span>
+                </div>
+                <div class="flex items-center relative mh-4">
+                  <select class="font-bold border-all bg-white letter-03">
+                    <option>3. 定型タグを選択</option>
+                    <option>VCあり</option>
+                    <option>VCなし</option>
+                    <option>聞き専可</option>
+                    <option>調整枠あり</option>
+                    <option>昼練習あり</option>
+                    <option>配信あり</option>
+                  </select>
+                  <span class="arrow text-jet-black">▼</span>
+                </div>
+                <div class="flex items-center relative mh-4">
+                  <select class="font-bold border-all bg-white letter-03">
+                    <option>4. 定型タグを選択</option>
+                    <option>VCあり</option>
+                    <option>VCなし</option>
+                    <option>聞き専可</option>
+                    <option>調整枠あり</option>
+                    <option>昼練習あり</option>
+                    <option>配信あり</option>
+                  </select>
+                  <span class="arrow text-jet-black">▼</span>
+                </div>
+                <input class="free ml-4 border-all" type="text" placeholder="自由入力されたタグを検索" />
               </div>
             </div>
           </div>

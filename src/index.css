@@ -6,6 +6,10 @@
 
 html {
   font-size: 75%;
+
+  * {
+   outline: none;
+  }
 }
 
 body {
@@ -51,6 +55,10 @@ code {
 .mr-10 {
   margin-right: 10px;
 }
+.mh-4 {
+  margin-right: 4px;
+  margin-left: 4px;
+}
 .pl-4 {
   padding-left: 4px;
 }
@@ -63,6 +71,9 @@ code {
 
 .border-b {
   border-bottom: 1px solid var(--border-color-gray);
+}
+.border-all {
+  border: 1px solid var(--border-color-gray);
 }
 
 .border-box {
@@ -104,6 +115,9 @@ code {
 .text-page-gray {
   color: var(--color-page-gray);
 }
+.text-jet-black {
+  color: var(--color-jet-black);
+}
 
 .font-s {
   font-size: 10px;
@@ -117,6 +131,10 @@ code {
 }
 .font-14 {
   font-size: 14px;
+}
+
+.letter-03 {
+  letter-spacing: 0.3px;
 }
 
 .transition {
