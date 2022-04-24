@@ -7,7 +7,9 @@
     padding-right: 22px;
     color: #fff;
   }
-  .main-visual {}
+  .main-visual {
+    margin-bottom: 130px;
+  }
   .detail {
     margin-bottom: 60px;
     padding: 30px 104px 30px 94px;
@@ -62,6 +64,24 @@
   img {
     aspect-ratio: 16/9;
     object-fit: cover;
+  }
+  .recruiter {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 0 20px;
+
+    .name {
+      height: 80px;
+      margin-top: 30px;
+      padding: 0 80px;
+      box-shadow: 7px 12px 24px 0px rgb(42 42 49 / 15%);
+      font-size: 32px;
+    }
+    .dc {
+      margin-top: 12px;
+      color: #585858;
+    }
   }
 }
 /**

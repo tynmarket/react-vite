@@ -38,8 +38,14 @@ export default function Page() {
           <span class="nav-item">コメント</span>
         </div>
       </div>
-      <div class="main-visual">
+      <div class="main-visual relative">
         <img src={ main } />
+        <div class="recruiter flex flex-col">
+          <h2 class="name flex items-center bg-white rounded-8 font-bold">
+            Tyn Market
+          </h2>
+          <span class="dc flex justify-center font-12 font-bold">Gaia</span>
+        </div>
       </div>
       <div class="detail flex flex-col w-page mx-auto">
         <div class="header flex justify-between w-page-content border-b">
@@ -97,7 +103,7 @@ export default function Page() {
             </span>
             <span class="flex flex-col">
               <span class="text-s">アクティブメンバー数</span>
-              <span class="text font-bold">999</span>
+              <span class="text font-bold">2</span>
             </span>
           </div>
         </div>
