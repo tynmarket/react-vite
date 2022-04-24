@@ -6,6 +6,7 @@ import './index.css'
 import App from './App'
 import Pages from "./Pages";
 import Page from "./Page";
+import NewPage from "./NewPage";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} >
           <Route path="/" element={<Pages />} />
           <Route path="page" element={<Page />} />
+          <Route path="new" element={<NewPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -71,10 +71,10 @@ export default function Layout() {
           </div>
         </div>
         <div class="right-nav flex items-center">
-          <span class="new-page flex justify-center items-center font-bold">
+          <Link to="/new"  class="new-page flex justify-center items-center font-bold">
             <img src={ add } class="icon" />
             新規募集を作成
-          </span>
+          </Link>
           <span class="empty"></span>
           <span class="empty"></span>
         </div>
