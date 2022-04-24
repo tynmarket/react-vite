@@ -17,7 +17,6 @@ import './Page.css'
 export default function Page() {
   return (
     <div class="page">
-      { /* TODO: Sticky */ }
       <div class="nav-bar flex justify-between w-full bg-primary">
         <div class="flex items-center">
           <img src={ party_w } class="icon-party" />
