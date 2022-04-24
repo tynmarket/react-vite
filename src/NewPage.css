@@ -1,8 +1,31 @@
 /**
  * main structure
  */
-.page {
+.new-page {
+  .nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    height: 81px;
+    padding-right: 22px;
+    color: #fff;
+  }
 }
 
-.page {
+.new-page {
+/**
+ * nav-bar
+ */
+.nav-bar {
+  .icon-party {
+    width: 90px;
+    height: 90px;
+    margin: 0 28px;
+  }
+  .title {
+    margin-bottom: 22px;
+    font-size: 22px;
+    line-height: 33px;
+  }
+}
 }
