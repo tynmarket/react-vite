@@ -7,6 +7,7 @@
     padding-right: 22px;
     color: #fff;
   }
+  .main-visual {}
   .detail {
     margin-bottom: 60px;
     padding: 30px 104px 30px 94px;
@@ -52,6 +53,15 @@
         border-bottom-color: #fff;
       }
     }
+  }
+}
+/**
+ * main-visual
+ */
+.main-visual {
+  img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
   }
 }
 /**

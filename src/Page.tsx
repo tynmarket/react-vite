@@ -1,3 +1,4 @@
+import main from './main-visual.png'
 import party from './party.svg'
 import party_w from './party-white.svg'
 import calendar from './calendar.svg'
@@ -36,6 +37,9 @@ export default function Page() {
           <span class="nav-item">募集主プロフィール</span>
           <span class="nav-item">コメント</span>
         </div>
+      </div>
+      <div class="main-visual">
+        <img src={ main } />
       </div>
       <div class="detail flex flex-col w-page mx-auto">
         <div class="header flex justify-between w-page-content border-b">
