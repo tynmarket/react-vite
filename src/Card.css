@@ -235,6 +235,11 @@
       border: 2px solid #313138;
       border-radius: 50%;
       background: #313138;
+
+      &.bg-primary {
+        background-color: var(--color-primary);
+        border-color: var(--color-primary);
+      }
     }
   }
 }

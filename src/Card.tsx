@@ -98,7 +98,7 @@ export default function Card() {
             <div class="tag flex">
               <div class="tag__container">
                 <span class="tag__item flex items-center">
-                  <img src={ tag } class="tag__icon mr-8" />
+                  <img src={ tag } class="tag__icon mr-8 bg-primary" />
                   <span>自由記入！</span>
                 </span>
                 <span class="tag__item flex items-center">
