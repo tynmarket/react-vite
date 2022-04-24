@@ -83,6 +83,7 @@ export default function Card() {
                 募集ロール
               </span>
             </p>
+            { /* TODO: 共通化 */ }
             <p class="role flex justify-around">
               <span class="role__done"><img src={ done } class="role__icon" /></span>
               <span class="role__tank"><img src={ tank } class="role__icon" /></span>
@@ -95,6 +96,7 @@ export default function Card() {
               <span class="role__dps"><img src={ dps } class="role__icon rotate-90" /></span>
               <span class="role__dps"><img src={ dps } class="role__icon rotate-90" /></span>
             </p>
+            { /* TODO: マークアップ修正 */ }
             <div class="tag flex">
               <div class="tag__container">
                 <span class="tag__item flex items-center">
