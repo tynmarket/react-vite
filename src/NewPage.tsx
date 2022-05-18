@@ -13,6 +13,12 @@ export default function NewPage() {
           </div>
         </div>
       </div>
+      <div class="detail mx-auto">
+        <div class="info font-bold">
+          コミュニティの情報や募集の概要を入力しよう！
+          <span class="font-12 font-bold">*は必須項目です。</span>
+        </div>
+      </div>
     </div>
   );
 }
